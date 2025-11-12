@@ -1,0 +1,15 @@
+PREFIX : <https://sparqling.arrow2nd.com/schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+# すべてのキャラクターの基本情報を取得
+
+SELECT ?character ?label ?familyName ?givenName ?nameKana WHERE {
+  ?character a :Character ;
+             rdfs:label ?label ;
+             schema:familyName ?familyName ;
+             schema:givenName ?givenName ;
+             :nameKana ?nameKana .
+  FILTER(lang(?familyName) = "ja")
+  FILTER(lang(?givenName) = "ja")
+}

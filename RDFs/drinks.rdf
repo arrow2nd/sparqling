@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:drink="https://sparqling.arrow2nd.com/drink#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#ChichibuBeer">
+    <rdfs:label>秩父麦酒</rdfs:label>
+    <schema:name xml:lang="ja">秩父麦酒</schema:name>
+    <reading xml:lang="ja">ちちぶびーる</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://chichibubeer.shop-pro.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">秩父麦酒醸造所</schema:manufacturer>
+    <schema:address xml:lang="ja">埼玉県秩父市下吉田3786-1</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</episode>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#WhiskySoda">
+    <rdfs:label>ハイボール</rdfs:label>
+    <schema:name xml:lang="ja">ハイボール</schema:name>
+    <reading xml:lang="ja">はいぼーる</reading>
+
+    <schema:category xml:lang="ja">ウイスキー</schema:category>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#GensaujirushiKyoho">
+    <rdfs:label>源作印 巨峰</rdfs:label>
+    <schema:name xml:lang="ja">源作印 巨峰</schema:name>
+    <reading xml:lang="ja">げんさくじるしきょほう</reading>
+
+    <schema:category xml:lang="ja">ワイン</schema:category>
+    <schema:url rdf:resource="https://chichibuwine.co.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">(有)秩父ワイン</schema:manufacturer>
+    <schema:address xml:lang="ja">埼玉県秩父郡小鹿野町両神薄41</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#SuntoryWhiskyHibiki">
+    <rdfs:label>響</rdfs:label>
+    <schema:name xml:lang="ja">響</schema:name>
+    <reading xml:lang="ja">ひびき</reading>
+
+    <schema:category xml:lang="ja">ウィスキー</schema:category>
+    <schema:url rdf:resource="https://www.suntory.co.jp/whisky/hibiki/"/>
+
+    <schema:manufacturer xml:lang="ja">サントリーホールディングス株式会社</schema:manufacturer>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+</rdf:RDF>

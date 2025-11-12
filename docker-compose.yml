@@ -1,0 +1,15 @@
+services:
+  fuseki:
+    build: .
+    container_name: sparqling-fuseki
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./RDFs:/fuseki/RDFs
+      - fuseki-data:/fuseki/databases
+    environment:
+      - JAVA_OPTIONS=-Xmx2g
+    restart: unless-stopped
+
+volumes:
+  fuseki-data:

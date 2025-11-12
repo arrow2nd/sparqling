@@ -1,0 +1,19 @@
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <https://sparqling.arrow2nd.com/schema#>
+PREFIX character: <https://sparqling.arrow2nd.com/character#>
+
+# ぼたんといぶきに関係するお酒の一覧
+
+SELECT DISTINCT ?drinkName ?manufacturer ?volume
+WHERE {
+  ?drink a :Drink ;
+         rdfs:label ?drinkName ;
+         :appearedIn ?appearance .
+
+  ?appearance :character character:KamiinaBotan ;
+              :character character:TonamiIbuki ;
+              :volume ?volume .
+
+  OPTIONAL { ?drink schema:manufacturer ?manufacturer }
+} ORDER BY ?volume ?drinkName ?manufacturer

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:schema="http://schema.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#KamiinaBotan">
+    <schema:familyName xml:lang="ja">上伊那</schema:familyName>
+    <schema:familyName xml:lang="en">Kamiina</schema:familyName>
+    <familyNameKana xml:lang="ja">かみいな</familyNameKana>
+
+    <schema:givenName xml:lang="ja">ぼたん</schema:givenName>
+    <schema:givenName xml:lang="en">Botan</schema:givenName>
+    <givenNameKana xml:lang="ja">ぼたん</givenNameKana>
+
+    <rdfs:label>上伊那ぼたん</rdfs:label>
+    <schema:name xml:lang="ja">上伊那ぼたん</schema:name>
+    <schema:name xml:lang="en">Kamiina Botan</schema:name>
+    <nameKana xml:lang="ja">かみいなぼたん</nameKana>
+
+    <schema:birthPlace xml:lang="ja">長野県</schema:birthPlace>
+    <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/長野県"/>
+    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Nagano_Prefecture"/>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q127877"/>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#TonamiIbuki">
+    <schema:familyName xml:lang="ja">砺波</schema:familyName>
+    <schema:familyName xml:lang="en">Tonami</schema:familyName>
+    <familyNameKana xml:lang="ja">となみ</familyNameKana>
+
+    <schema:givenName xml:lang="ja">いぶき</schema:givenName>
+    <schema:givenName xml:lang="en">Ibuki</schema:givenName>
+    <givenNameKana xml:lang="ja">いぶき</givenNameKana>
+
+    <rdfs:label>砺波いぶき</rdfs:label>
+    <schema:name xml:lang="ja">砺波いぶき</schema:name>
+    <schema:name xml:lang="en">Tonami Ibuki</schema:name>
+    <nameKana xml:lang="ja">となみいぶき</nameKana>
+
+    <schema:birthPlace xml:lang="ja">富山県</schema:birthPlace>
+    <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/富山県"/>
+    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Toyama_Prefecture"/>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q132929"/>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#GujoKanade">
+    <schema:familyName xml:lang="ja">郡上</schema:familyName>
+    <schema:familyName xml:lang="en">Gujo</schema:familyName>
+    <familyNameKana xml:lang="ja">ぐじょう</familyNameKana>
+
+    <schema:givenName xml:lang="ja">かなで</schema:givenName>
+    <schema:givenName xml:lang="en">Kanade</schema:givenName>
+    <givenNameKana xml:lang="ja">かなで</givenNameKana>
+
+    <rdfs:label>郡上かなで</rdfs:label>
+    <schema:name xml:lang="ja">郡上かなで</schema:name>
+    <schema:name xml:lang="en">Gujo Kanade</schema:name>
+    <nameKana xml:lang="ja">ぐじょうかなで</nameKana>
+
+    <schema:birthPlace xml:lang="ja">岐阜県</schema:birthPlace>
+    <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/岐阜県"/>
+    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Gifu_Prefecture"/>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q131277"/>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#KitamoriYaeka">
+    <schema:familyName xml:lang="ja">北杜</schema:familyName>
+    <schema:familyName xml:lang="en">Kitamori</schema:familyName>
+    <familyNameKana xml:lang="ja">きたもり</familyNameKana>
+
+    <schema:givenName xml:lang="ja">やえか</schema:givenName>
+    <schema:givenName xml:lang="en">Yaeka</schema:givenName>
+    <givenNameKana xml:lang="ja">やえか</givenNameKana>
+
+    <rdfs:label>北杜やえか</rdfs:label>
+    <schema:name xml:lang="ja">北杜やえか</schema:name>
+    <schema:name xml:lang="en">Kitamori Yaeka</schema:name>
+    <nameKana xml:lang="ja">きたもりやえか</nameKana>
+
+    <schema:birthPlace xml:lang="ja">山梨県</schema:birthPlace>
+    <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/山梨県"/>
+    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Yamanashi_Prefecture"/>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q132720"/>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#YusaAkane">
+    <schema:familyName xml:lang="ja">遊佐</schema:familyName>
+    <schema:familyName xml:lang="en">Yusa</schema:familyName>
+    <familyNameKana xml:lang="ja">ゆさ</familyNameKana>
+
+    <schema:givenName xml:lang="ja">あかね</schema:givenName>
+    <schema:givenName xml:lang="en">Akane</schema:givenName>
+    <givenNameKana xml:lang="ja">あかね</givenNameKana>
+
+    <rdfs:label>遊佐あかね</rdfs:label>
+    <schema:name xml:lang="ja">遊佐あかね</schema:name>
+    <schema:name xml:lang="en">Yusa Akane</schema:name>
+    <nameKana xml:lang="ja">ゆさあかね</nameKana>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#ZhangJinglan">
+    <schema:familyName xml:lang="ja">張</schema:familyName>
+    <schema:familyName xml:lang="zh-TW">張</schema:familyName>
+    <schema:familyName xml:lang="en">Zhang</schema:familyName>
+    <familyNameKana xml:lang="ja">ちゃん</familyNameKana>
+
+    <schema:givenName xml:lang="ja">景嵐</schema:givenName>
+    <schema:givenName xml:lang="zh-TW">景嵐</schema:givenName>
+    <schema:givenName xml:lang="en">Jinglan</schema:givenName>
+    <givenNameKana xml:lang="ja">じんらん</givenNameKana>
+
+    <rdfs:label>張 景嵐</rdfs:label>
+    <schema:name xml:lang="ja">張 景嵐</schema:name>
+    <schema:name xml:lang="zh-TW">張 景嵐</schema:name>
+    <schema:name xml:lang="en">Zhang Jinglan</schema:name>
+    <nameKana xml:lang="ja">ちゃんじんらん</nameKana>
+
+    <schema:birthPlace xml:lang="ja">台湾</schema:birthPlace>
+    <schema:birthPlace xml:lang="zh-TW">台灣</schema:birthPlace>
+    <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/台湾"/>
+    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q22502"/>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#AwaMikuri">
+    <schema:familyName xml:lang="ja">阿波</schema:familyName>
+    <schema:familyName xml:lang="en">Awa</schema:familyName>
+    <familyNameKana xml:lang="ja">あわ</familyNameKana>
+
+    <schema:givenName xml:lang="ja">みくり</schema:givenName>
+    <schema:givenName xml:lang="en">Mikuri</schema:givenName>
+    <givenNameKana xml:lang="ja">みくり</givenNameKana>
+
+    <rdfs:label>阿波みくり</rdfs:label>
+    <schema:name xml:lang="ja">阿波みくり</schema:name>
+    <schema:name xml:lang="en">Awa Mikuri</schema:name>
+    <nameKana xml:lang="ja">あわみくり</nameKana>
+  </Character>
+
+  <Character rdf:about="https://sparqling.arrow2nd.com/character#AnneShando">
+    <schema:familyName xml:lang="ja">シャンド</schema:familyName>
+    <schema:familyName xml:lang="en">Shando</schema:familyName>
+    <familyNameKana xml:lang="ja">しゃんど</familyNameKana>
+
+    <schema:givenName xml:lang="ja">アン</schema:givenName>
+    <schema:givenName xml:lang="en">Anne</schema:givenName>
+    <givenNameKana xml:lang="ja">あん</givenNameKana>
+
+    <rdfs:label>アン・シャンド</rdfs:label>
+    <schema:name xml:lang="ja">アン・シャンド</schema:name>
+    <schema:name xml:lang="en">Anne Shando</schema:name>
+    <nameKana xml:lang="ja">あんしゃんど</nameKana>
+  </Character>
+</rdf:RDF>

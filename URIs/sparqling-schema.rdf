@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#">
+
+  <!-- Ontology metadata -->
+  <owl:Ontology rdf:about="https://sparqling.arrow2nd.com/schema#">
+    <rdfs:label xml:lang="en">Sparqling Ontology</rdfs:label>
+    <rdfs:label xml:lang="ja">SPARQLing オントロジー</rdfs:label>
+    <rdfs:comment xml:lang="ja">上伊那ぼたん、酔へる姿は百合の花関連情報のLinked Open Data化のためのオントロジー</rdfs:comment>
+    <owl:versionInfo>0.1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <!-- Classes -->
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Character">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">Character</rdfs:label>
+    <rdfs:label xml:lang="ja">キャラクター</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中の登場人物</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Drink">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Product"/>
+    <rdfs:label xml:lang="en">Alcoholic Beverage</rdfs:label>
+    <rdfs:label xml:lang="ja">お酒</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中に登場したお酒</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Tobacco">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Product"/>
+    <rdfs:label xml:lang="en">Tobacco</rdfs:label>
+    <rdfs:label xml:lang="ja">たばこ</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中に登場したたばこ</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Book">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Book"/>
+    <rdfs:label xml:lang="en">Book</rdfs:label>
+    <rdfs:label xml:lang="ja">本</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中で言及された本</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Music">
+    <rdfs:subClassOf rdf:resource="http://schema.org/MusicRecording"/>
+    <rdfs:label xml:lang="en">Music</rdfs:label>
+    <rdfs:label xml:lang="ja">音楽</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中で言及された音楽</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Place">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Place"/>
+    <rdfs:label xml:lang="en">Place</rdfs:label>
+    <rdfs:label xml:lang="ja">場所</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中で訪れた場所</rdfs:comment>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Appearance">
+    <rdfs:label xml:lang="en">Appearance</rdfs:label>
+    <rdfs:label xml:lang="ja">登場情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">お酒やキャラクターが作中のどこで登場したかを表す</rdfs:comment>
+  </rdfs:Class>
+
+  <!-- Properties -->
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#reading">
+    <rdfs:label xml:lang="en">reading</rdfs:label>
+    <rdfs:label xml:lang="ja">読み</rdfs:label>
+    <rdfs:comment xml:lang="ja">名称の読み仮名</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#familyNameKana">
+    <rdfs:label xml:lang="en">family name kana</rdfs:label>
+    <rdfs:label xml:lang="ja">姓の読み仮名</rdfs:label>
+    <rdfs:comment xml:lang="ja">姓の読み仮名</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Character"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#givenNameKana">
+    <rdfs:label xml:lang="en">given name kana</rdfs:label>
+    <rdfs:label xml:lang="ja">名の読み仮名</rdfs:label>
+    <rdfs:comment xml:lang="ja">名の読み仮名</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Character"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#nameKana">
+    <rdfs:label xml:lang="en">name kana</rdfs:label>
+    <rdfs:label xml:lang="ja">フルネームの読み仮名</rdfs:label>
+    <rdfs:comment xml:lang="ja">フルネームの読み仮名</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Character"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#appearedIn">
+    <rdfs:label xml:lang="en">appeared in</rdfs:label>
+    <rdfs:label xml:lang="ja">登場情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中への登場を示す</rdfs:comment>
+    <rdfs:range rdf:resource="https://sparqling.arrow2nd.com/schema#Appearance"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#volume">
+    <rdfs:label xml:lang="en">volume</rdfs:label>
+    <rdfs:label xml:lang="ja">巻数</rdfs:label>
+    <rdfs:comment xml:lang="ja">コミックスの巻数</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Appearance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#episode">
+    <rdfs:label xml:lang="en">episode</rdfs:label>
+    <rdfs:label xml:lang="ja">話数</rdfs:label>
+    <rdfs:comment xml:lang="ja">エピソードの話数</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Appearance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#character">
+    <rdfs:label xml:lang="en">character</rdfs:label>
+    <rdfs:label xml:lang="ja">キャラクター</rdfs:label>
+    <rdfs:comment xml:lang="ja">登場したキャラクター</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Appearance"/>
+    <rdfs:range rdf:resource="https://sparqling.arrow2nd.com/schema#Character"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://sparqling.arrow2nd.com/schema#note">
+    <rdfs:label xml:lang="en">note</rdfs:label>
+    <rdfs:label xml:lang="ja">補足情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">コーナー名や特別な情報など、登場に関する補足</rdfs:comment>
+    <rdfs:domain rdf:resource="https://sparqling.arrow2nd.com/schema#Appearance"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+</rdf:RDF>
