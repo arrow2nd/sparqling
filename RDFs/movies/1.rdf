@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:movie="https://sparqling.arrow2nd.com/movie#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Movie rdf:about="https://sparqling.arrow2nd.com/movie#AnnieHall">
+    <rdfs:label>ANNIE HALL</rdfs:label>
+    <schema:name xml:lang="en">Annie Hall</schema:name>
+    <reading xml:lang="ja">あにーほーる</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/アニー・ホール"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Movie>
+
+  <Movie rdf:about="https://sparqling.arrow2nd.com/movie#WildStrawberries">
+    <rdfs:label>野いちご</rdfs:label>
+    <schema:name xml:lang="ja">野いちご</schema:name>
+    <schema:name xml:lang="sv">Smultronstället</schema:name>
+    <reading xml:lang="ja">のいちご</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/野いちご"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Movie>
+</rdf:RDF>

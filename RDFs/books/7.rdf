@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:book="https://sparqling.arrow2nd.com/book#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#">
+    <rdfs:label>春宵十話</rdfs:label>
+    <schema:name xml:lang="ja">春宵十話</schema:name>
+    <reading xml:lang="ja">しゅんしょうじゅうわ</reading>
+
+    <schema:author xml:lang="ja">岡潔</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡潔"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SciencesOfTheArtificial">
+    <rdfs:label>システムの科学</rdfs:label>
+    <schema:name xml:lang="ja">システムの科学</schema:name>
+    <schema:name xml:lang="en">The Sciences of the Artificial</schema:name>
+    <reading xml:lang="ja">しすてむのかがく</reading>
+
+    <schema:author xml:lang="ja">ハーバート・A・サイモン</schema:author>
+    <schema:author xml:lang="en">Herbert A. Simon</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ハーバート・サイモン"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30078095"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SocietyOfMind">
+    <schema:name xml:lang="ja">心の社会</schema:name>
+    <schema:name xml:lang="en">The Society of Mind</schema:name>
+    <rdfs:label>心の社会</rdfs:label>
+    <reading xml:lang="ja">こころのしゃかい</reading>
+    <schema:author xml:lang="ja">マーヴィン・ミンスキー</schema:author>
+    <schema:author xml:lang="en">Marvin Minsky</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/マービン・ミンスキー"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2414313"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#HackersAndPainters">
+    <rdfs:label>ハッカーと画家</rdfs:label>
+    <schema:name xml:lang="ja">ハッカーと画家</schema:name>
+    <schema:name xml:lang="en">Hackers and Painters</schema:name>
+    <reading xml:lang="ja">はっかーとがか</reading>
+
+    <schema:author xml:lang="ja">ポール・グレアム</schema:author>
+    <schema:author xml:lang="en">Paul Graham</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ポール・グレアム"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5637262"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SymbolicExchangeAndDeath">
+    <rdfs:label>象徴交換と死</rdfs:label>
+    <schema:name xml:lang="ja">象徴交換と死</schema:name>
+    <schema:name xml:lang="en">Symbolic Exchange and Death</schema:name>
+    <reading xml:lang="ja">しょうちょうこうかんとし</reading>
+
+    <schema:author xml:lang="ja">ジャン・ボードリヤール</schema:author>
+    <schema:author xml:lang="en">Jean Baudrillard</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジャン・ボードリヤール"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q19278075"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#HyosoBihyoSengen">
+    <rdfs:label>表層批評宣言</rdfs:label>
+    <schema:name xml:lang="ja">表層批評宣言</schema:name>
+    <reading xml:lang="ja">ひょうそうひひょうせんげん</reading>
+    <schema:author xml:lang="ja">蓮實重彦</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/蓮實重彦"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#NotesOnCinematograph">
+    <rdfs:label>シネマトグラフ覚書</rdfs:label>
+    <schema:name xml:lang="ja">シネマトグラフ覚書 映画監督のノート</schema:name>
+    <schema:name xml:lang="en">Notes on the Cinematograph</schema:name>
+    <reading xml:lang="ja">しねまとぐらふおぼえがき</reading>
+
+    <schema:author xml:lang="ja">ロベール・ブレッソン</schema:author>
+    <schema:author xml:lang="en">Robert Bresson</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロベール・ブレッソン"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#FukuoHyakuwa">
+    <rdfs:label>福翁百話</rdfs:label>
+    <schema:name xml:lang="ja">福翁百話</schema:name>
+    <reading xml:lang="ja">ふくおうひゃくわ</reading>
+
+    <schema:author xml:lang="ja">福沢諭吉</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/福澤諭吉"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#StoryOfYourLife">
+    <rdfs:label>あなたの人生の物語</rdfs:label>
+    <schema:name xml:lang="ja">あなたの人生の物語</schema:name>
+    <schema:name xml:lang="en">Story of Your Life</schema:name>
+    <reading xml:lang="ja">あなたのじんせいのものがたり</reading>
+
+    <schema:author xml:lang="ja">テッド・チャン</schema:author>
+    <schema:author xml:lang="en">Ted Chiang</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/テッド・チャン"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7620415"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ArtOfComputerProgramming">
+    <rdfs:label>The Art of Computer Programming</rdfs:label>
+    <schema:name xml:lang="en">The Art of Computer Programming</schema:name>
+    <reading xml:lang="ja">あーとおぶこんぴゅーたーぷろぐらみんぐ</reading>
+
+    <schema:author xml:lang="en">Donald E. Knuth</schema:author>
+    <schema:author xml:lang="ja">ドナルド・E・クヌース</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ドナルド・クヌース"/>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q82438"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ElementsOfStatisticalLearning">
+    <rdfs:label>統計的学習の基礎</rdfs:label>
+    <reading xml:lang="ja">とうけいてきがくしゅうのきそ</reading>
+    <schema:name xml:lang="ja">統計的学習の基礎 データマイニング・推論・予測</schema:name>
+    <schema:name xml:lang="en">The Elements of Statistical Learning: Data Mining, Inference, and Prediction</schema:name>
+
+    <schema:author xml:lang="en">Trevor Hastie</schema:author>
+    <schema:author rdf:resource="http://www.wikidata.org/entity/Q7839206"/>
+
+    <schema:author xml:lang="en">Robert Tibshirani</schema:author>
+    <schema:author rdf:resource="http://www.wikidata.org/entity/Q3938444"/>
+
+    <schema:author xml:lang="en">Jerome Friedman</schema:author>
+    <schema:author rdf:resource="http://www.wikidata.org/entity/Q15429378"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Ethics">
+    <rdfs:label>エチカ</rdfs:label>
+    <schema:name xml:lang="ja">エチカ</schema:name>
+    <schema:name xml:lang="en">Ethics</schema:name>
+    <reading xml:lang="ja">えちか</reading>
+
+    <schema:author xml:lang="ja">バールーフ・デ・スピノザ</schema:author>
+    <schema:author xml:lang="en">Baruch Spinoza</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/バールーフ・デ・スピノザ"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ethics_(Spinoza_book)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#CharterhouseOfParma">
+    <rdfs:label>パルムの僧院</rdfs:label>
+    <schema:name xml:lang="ja">パルムの僧院</schema:name>
+    <schema:name xml:lang="en">The Charterhouse of Parma</schema:name>
+    <schema:name xml:lang="fr">La Chartreuse de Parme</schema:name>
+    <reading xml:lang="ja">ぱるむのそういん</reading>
+
+    <schema:author xml:lang="ja">スタンダール</schema:author>
+    <schema:author xml:lang="en">Stendhal</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/スタンダール"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/パルムの僧院"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Demons">
+    <rdfs:label>悪霊</rdfs:label>
+    <schema:name xml:lang="ja">悪霊</schema:name>
+    <schema:name xml:lang="en">Demons</schema:name>
+    <reading xml:lang="ja">あくりょう</reading>
+
+    <schema:author xml:lang="ja">フョードル・ドストエフスキー</schema:author>
+    <schema:author xml:lang="en">Fyodor Dostoevsky</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/フョードル・ドストエフスキー"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/悪霊_(ドストエフスキー)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#OneHundredYearsOfSolitude">
+    <rdfs:label>百年の孤独</rdfs:label>
+    <schema:name xml:lang="ja">百年の孤独</schema:name>
+    <schema:name xml:lang="en">One Hundred Years of Solitude</schema:name>
+    <schema:name xml:lang="es">Cien años de soledad</schema:name>
+    <reading xml:lang="ja">ひゃくねんのこどく</reading>
+
+    <schema:author xml:lang="ja">ガブリエル・ガルシア＝マルケス</schema:author>
+    <schema:author xml:lang="en">Gabriel García Márquez</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ガブリエル・ガルシア＝マルケス"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/百年の孤独"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Orientalism">
+    <rdfs:label>オリエンタリズム</rdfs:label>
+    <schema:name xml:lang="ja">オリエンタリズム</schema:name>
+    <schema:name xml:lang="en">Orientalism</schema:name>
+    <reading xml:lang="ja">おりえんたりずむ</reading>
+
+    <schema:author xml:lang="ja">エドワード・サイード</schema:author>
+    <schema:author xml:lang="en">Edward Said</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/エドワード・サイード"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/オリエンタリズム"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheThingsTheyCarried">
+    <rdfs:label>本当の戦争の話をしよう</rdfs:label>
+    <schema:name xml:lang="ja">本当の戦争の話をしよう</schema:name>
+    <schema:name xml:lang="en">The Things They Carried</schema:name>
+    <reading xml:lang="ja">ほんとうのせんそうのはなしをしよう</reading>
+
+    <schema:author xml:lang="ja">ティム・オブライエン</schema:author>
+    <schema:author xml:lang="en">Tim O'Brien</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ティム・オブライエン"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Things_They_Carried"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ConfessionsOfAMask">
+    <rdfs:label>仮面の告白</rdfs:label>
+    <schema:name xml:lang="ja">仮面の告白</schema:name>
+    <schema:name xml:lang="en">Confessions of a Mask</schema:name>
+    <reading xml:lang="ja">かめんのこくはく</reading>
+
+    <schema:author xml:lang="ja">三島由紀夫</schema:author>
+    <schema:author xml:lang="en">Yukio Mishima</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/三島由紀夫"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/仮面の告白"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SpaceOfLiterature">
+    <rdfs:label>文学空間</rdfs:label>
+    <schema:name xml:lang="ja">文学空間</schema:name>
+    <schema:name xml:lang="en">The Space of Literature</schema:name>
+    <reading xml:lang="ja">ぶんがくくうかん</reading>
+
+    <schema:author xml:lang="ja">モーリス・ブランショ</schema:author>
+    <schema:author xml:lang="en">Maurice Blanchot</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/モーリス・ブランショ"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#HistoiresDuCinema">
+    <rdfs:label>映画史</rdfs:label>
+    <schema:name xml:lang="ja">映画史</schema:name>
+    <schema:name xml:lang="en">Histoire(s) du cinéma</schema:name>
+    <schema:name xml:lang="fr">Histoire(s) du cinéma</schema:name>
+    <reading xml:lang="ja">えいがし</reading>
+
+    <schema:author xml:lang="ja">ジャン=リュック・ゴダール</schema:author>
+    <schema:author xml:lang="en">Jean-Luc Godard</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジャン=リュック・ゴダール"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Histoire(s)_du_cinéma"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Cinema">
+    <rdfs:label>シネマ</rdfs:label>
+    <schema:name xml:lang="ja">シネマ</schema:name>
+    <schema:name xml:lang="en">Cinema</schema:name>
+    <schema:name xml:lang="fr">Cinéma</schema:name>
+    <reading xml:lang="ja">しねま</reading>
+
+    <schema:author xml:lang="ja">ジル・ドゥルーズ</schema:author>
+    <schema:author xml:lang="en">Gilles Deleuze</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジル・ドゥルーズ"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- 遊佐あかねの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#FeynmanLecturesOnPhysics">
+    <rdfs:label>ファインマン物理学</rdfs:label>
+    <schema:name xml:lang="ja">ファインマン物理学</schema:name>
+    <schema:name xml:lang="en">The Feynman Lectures on Physics</schema:name>
+    <reading xml:lang="ja">ふぁいんまんぶつりがく</reading>
+
+    <schema:author xml:lang="ja">リチャード・P・ファインマン</schema:author>
+    <schema:author xml:lang="en">Richard P. Feynman</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/リチャード・P・ファインマン"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ファインマン物理学"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#RelativityTheoryOfSpecialAndGeneral">
+    <rdfs:label>相対性理論</rdfs:label>
+    <schema:name xml:lang="ja">相対性理論</schema:name>
+    <schema:name xml:lang="en">Relativity: The Special and the General Theory</schema:name>
+    <reading xml:lang="ja">そうたいせいりろん</reading>
+
+    <schema:author xml:lang="ja">アルバート・アインシュタイン</schema:author>
+    <schema:author xml:lang="en">Albert Einstein</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/アルベルト・アインシュタイン"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Relativity:_The_Special_and_the_General_Theory"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TractatusLogicopPhilosophicus">
+    <rdfs:label>論理哲学論考</rdfs:label>
+    <schema:name xml:lang="ja">論理哲学論考</schema:name>
+    <schema:name xml:lang="en">Tractatus Logico-Philosophicus</schema:name>
+    <reading xml:lang="ja">ろんりてつがくろんこう</reading>
+
+    <schema:author xml:lang="ja">ルートヴィヒ・ウィトゲンシュタイン</schema:author>
+    <schema:author xml:lang="en">Ludwig Wittgenstein</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ルートヴィヒ・ウィトゲンシュタイン"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/論理哲学論考"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#AnImaginaryTale">
+    <rdfs:label>虚数の情緒</rdfs:label>
+    <schema:name xml:lang="ja">虚数の情緒</schema:name>
+    <reading xml:lang="ja">きょすうのじょうちょ</reading>
+
+    <schema:author xml:lang="ja">吉田武</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/吉田武"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#OzawaAndTakemitsuMusic">
+    <rdfs:label>音楽</rdfs:label>
+    <schema:name xml:lang="ja">音楽</schema:name>
+    <reading xml:lang="ja">おんがく</reading>
+
+    <schema:author xml:lang="ja">小澤征爾</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/小澤征爾"/>
+
+    <schema:author xml:lang="ja">武満徹</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/武満徹"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TokyoMusicRocknRoll">
+    <rdfs:label>東京、音楽、ロックンロール</rdfs:label>
+    <schema:name xml:lang="ja">東京、音楽、ロックンロール</schema:name>
+    <reading xml:lang="ja">とうきょうおんがくろっくんろーる</reading>
+
+    <schema:author xml:lang="ja">志村正彦</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/志村正彦"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Mozart">
+    <rdfs:label>モォツァルト</rdfs:label>
+    <schema:name xml:lang="ja">モォツァルト</schema:name>
+    <reading xml:lang="ja">もぉつぁると</reading>
+
+    <schema:author xml:lang="ja">小林秀雄</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/小林秀雄_(批評家)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#InDreamsBeginResponsibilities">
+    <rdfs:label>夢のなかで責任がはじまる</rdfs:label>
+    <schema:name xml:lang="ja">夢のなかで責任がはじまる</schema:name>
+    <schema:name xml:lang="en">In Dreams Begin Responsibilities</schema:name>
+    <reading xml:lang="ja">ゆめのなかでせきにんがはじまる</reading>
+
+    <schema:author xml:lang="ja">デルモア・シュワルツ</schema:author>
+    <schema:author xml:lang="en">Delmore Schwartz</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/デルモア・シュワルツ"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheDecisiveMoment">
+    <rdfs:label>The Decisive Moment</rdfs:label>
+    <schema:name xml:lang="en">The Decisive Moment</schema:name>
+    <schema:name xml:lang="fr">Images à la sauvette</schema:name>
+    <reading xml:lang="ja">でしーしぶもーめんと</reading>
+
+    <schema:author xml:lang="en">Henri Cartier-Bresson</schema:author>
+    <schema:author xml:lang="ja">アンリ・カルティエ＝ブレッソン</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/アンリ・カルティエ＝ブレッソン"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#AbsoluteSafetyRazor">
+    <rdfs:label>絶対的安全剃刀</rdfs:label>
+    <schema:name xml:lang="ja">絶対的安全剃刀</schema:name>
+    <reading xml:lang="ja">ぜったいてきあんぜんかみそり</reading>
+
+    <schema:author xml:lang="ja">高野文子</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/高野文子"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- 北杜やえかの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheStructureOfScientificRevolutions">
+    <rdfs:label>科学革命の構造</rdfs:label>
+    <schema:name xml:lang="ja">科学革命の構造</schema:name>
+    <schema:name xml:lang="en">The Structure of Scientific Revolutions</schema:name>
+    <reading xml:lang="ja">かがくかくめいのこうぞう</reading>
+
+    <schema:author xml:lang="ja">トーマス・クーン</schema:author>
+    <schema:author xml:lang="en">Thomas Kuhn</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/トーマス・クーン"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/科学革命の構造"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#QuantumMechanicsAndI">
+    <rdfs:label>量子力学と私</rdfs:label>
+    <schema:name xml:lang="ja">量子力学と私</schema:name>
+    <reading xml:lang="ja">りょうしりきがくとわたし</reading>
+
+    <schema:author xml:lang="ja">朝永振一郎</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/朝永振一郎"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#InfinityAndContinuity">
+    <rdfs:label>無限と連続</rdfs:label>
+    <schema:name xml:lang="ja">無限と連続</schema:name>
+    <reading xml:lang="ja">むげんとれんぞく</reading>
+
+    <schema:author xml:lang="ja">遠山啓</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/遠山啓"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#GramophoneFilmTypewriter">
+    <rdfs:label>グラモフォン・フィルム・タイプライター</rdfs:label>
+    <schema:name xml:lang="ja">グラモフォン・フィルム・タイプライター</schema:name>
+    <schema:name xml:lang="en">Gramophone, Film, Typewriter</schema:name>
+    <reading xml:lang="ja">ぐらもふぉんふぃるむたいぷらいたー</reading>
+
+    <schema:author xml:lang="ja">フリードリヒ・キットラー</schema:author>
+    <schema:author xml:lang="en">Friedrich Kittler</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/フリードリヒ・キットラー"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#NightOnTheGalacticRailroad">
+    <rdfs:label>銀河鉄道の夜</rdfs:label>
+    <schema:name xml:lang="ja">銀河鉄道の夜</schema:name>
+    <schema:name xml:lang="en">Night on the Galactic Railroad</schema:name>
+    <reading xml:lang="ja">ぎんがてつどうのよる</reading>
+
+    <schema:author xml:lang="ja">宮沢賢治</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/宮沢賢治"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/銀河鉄道の夜"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#FlowerTales">
+    <rdfs:label>花物語</rdfs:label>
+    <schema:name xml:lang="ja">花物語</schema:name>
+    <reading xml:lang="ja">はなものがたり</reading>
+
+    <schema:author xml:lang="ja">吉屋信子</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/吉屋信子"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/花物語"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Ficciones">
+    <rdfs:label>伝奇集</rdfs:label>
+    <schema:name xml:lang="ja">伝奇集</schema:name>
+    <schema:name xml:lang="en">Ficciones</schema:name>
+    <schema:name xml:lang="es">Ficciones</schema:name>
+    <reading xml:lang="ja">でんきしゅう</reading>
+
+    <schema:author xml:lang="ja">ホルヘ・ルイス・ボルヘス</schema:author>
+    <schema:author xml:lang="en">Jorge Luis Borges</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ホルヘ・ルイス・ボルヘス"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伝奇集"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Jealousy">
+    <rdfs:label>嫉妬</rdfs:label>
+    <schema:name xml:lang="ja">嫉妬</schema:name>
+    <schema:name xml:lang="en">Jealousy</schema:name>
+    <schema:name xml:lang="fr">La Jalousie</schema:name>
+    <reading xml:lang="ja">しっと</reading>
+
+    <schema:author xml:lang="ja">アラン・ロブ＝グリエ</schema:author>
+    <schema:author xml:lang="en">Alain Robbe-Grillet</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/アラン・ロブ＝グリエ"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jealousy_(novel)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Momo">
+    <rdfs:label>モモ</rdfs:label>
+    <schema:name xml:lang="ja">モモ</schema:name>
+    <schema:name xml:lang="en">Momo</schema:name>
+    <schema:name xml:lang="de">Momo</schema:name>
+    <reading xml:lang="ja">もも</reading>
+
+    <schema:author xml:lang="ja">ミヒャエル・エンデ</schema:author>
+    <schema:author xml:lang="en">Michael Ende</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミヒャエル・エンデ"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/モモ_(児童文学)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#CardcaptorSakura">
+    <rdfs:label>カードキャプターさくら</rdfs:label>
+    <schema:name xml:lang="ja">カードキャプターさくら</schema:name>
+    <schema:name xml:lang="en">Cardcaptor Sakura</schema:name>
+    <reading xml:lang="ja">かーどきゃぷたーさくら</reading>
+
+    <schema:author xml:lang="ja">CLAMP</schema:author>
+    <schema:author xml:lang="en">Clamp</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/CLAMP"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カードキャプターさくら"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- アン・シャンドの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheFashionSystem">
+    <rdfs:label>モードの体系</rdfs:label>
+    <schema:name xml:lang="ja">モードの体系</schema:name>
+    <schema:name xml:lang="en">The Fashion System</schema:name>
+    <schema:name xml:lang="fr">Système de la mode</schema:name>
+    <reading xml:lang="ja">もーどのたいけい</reading>
+
+    <schema:author xml:lang="ja">ロラン・バルト</schema:author>
+    <schema:author xml:lang="en">Roland Barthes</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロラン・バルト"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheOrderOfThings">
+    <rdfs:label>言葉と物</rdfs:label>
+    <schema:name xml:lang="ja">言葉と物</schema:name>
+    <schema:name xml:lang="en">The Order of Things</schema:name>
+    <schema:name xml:lang="fr">Les Mots et les Choses</schema:name>
+    <reading xml:lang="ja">ことばともの</reading>
+
+    <schema:author xml:lang="ja">ミシェル・フーコー</schema:author>
+    <schema:author xml:lang="en">Michel Foucault</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミシェル・フーコー"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/言葉と物"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#MetaphorAsArchitecture">
+    <rdfs:label>暗喩としての建築</rdfs:label>
+    <schema:name xml:lang="ja">暗喩としての建築</schema:name>
+    <reading xml:lang="ja">あんゆとしてのけんちく</reading>
+
+    <schema:author xml:lang="ja">柄谷行人</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/柄谷行人"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TowardsANewArchitecture">
+    <rdfs:label>建築を目指して</rdfs:label>
+    <schema:name xml:lang="ja">建築を目指して</schema:name>
+    <schema:name xml:lang="en">Towards a New Architecture</schema:name>
+    <schema:name xml:lang="fr">Vers une architecture</schema:name>
+    <reading xml:lang="ja">けんちくをめざして</reading>
+
+    <schema:author xml:lang="ja">ル・コルビュジエ</schema:author>
+    <schema:author xml:lang="en">Le Corbusier</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ル・コルビュジエ"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/建築をめざして"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ShinoharaHousingTheory">
+    <rdfs:label>住宅論</rdfs:label>
+    <schema:name xml:lang="ja">住宅論</schema:name>
+    <reading xml:lang="ja">じゅうたくろん</reading>
+
+    <schema:author xml:lang="ja">篠原一男</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/篠原一男"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Civilisation">
+    <rdfs:label>芸術と文明</rdfs:label>
+    <schema:name xml:lang="ja">芸術と文明</schema:name>
+    <schema:name xml:lang="en">Civilisation</schema:name>
+    <reading xml:lang="ja">げいじゅつとぶんめい</reading>
+
+    <schema:author xml:lang="ja">ケネス・クラーク</schema:author>
+    <schema:author xml:lang="en">Kenneth Clark</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ケネス・クラーク"/>
+    <schema:author rdf:resource="http://dbpedia.org/resource/Kenneth_Clark"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#IdealsOfTheEast">
+    <rdfs:label>東洋の理想</rdfs:label>
+    <schema:name xml:lang="ja">東洋の理想</schema:name>
+    <schema:name xml:lang="en">The Ideals of the East</schema:name>
+    <reading xml:lang="ja">とうようのりそう</reading>
+
+    <schema:author xml:lang="ja">岡倉天心</schema:author>
+    <schema:author xml:lang="en">Okakura Kakuzō</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡倉天心"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/東洋の理想"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ThePowerOfAbstraction">
+    <rdfs:label>抽象の力</rdfs:label>
+    <schema:name xml:lang="ja">抽象の力</schema:name>
+    <reading xml:lang="ja">ちゅうしょうのちから</reading>
+
+    <schema:author xml:lang="ja">岡﨑乾二郎</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡﨑乾二郎"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheMoonAndSixpence">
+    <rdfs:label>月と六ペンス</rdfs:label>
+    <schema:name xml:lang="ja">月と六ペンス</schema:name>
+    <schema:name xml:lang="en">The Moon and Sixpence</schema:name>
+    <reading xml:lang="ja">つきとろくぺんす</reading>
+
+    <schema:author xml:lang="ja">サマセット・モーム</schema:author>
+    <schema:author xml:lang="en">W. Somerset Maugham</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/サマセット・モーム"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/月と六ペンス"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#IStoredEveningInTheDrawer">
+    <rdfs:label>引き出しに夕方をしまっておいた</rdfs:label>
+    <schema:name xml:lang="ja">引き出しに夕方をしまっておいた</schema:name>
+    <schema:name xml:lang="ko">서랍에 저녁을 넣어 두었다</schema:name>
+    <reading xml:lang="ja">ひきだしにゆうがたをしまっておいた</reading>
+
+    <schema:author xml:lang="ja">韓江</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ハン・ガン"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- 阿波みくりの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ApologyOfSocrates">
+    <rdfs:label>ソクラテスの弁明</rdfs:label>
+    <schema:name xml:lang="ja">ソクラテスの弁明</schema:name>
+    <schema:name xml:lang="en">Apology of Socrates</schema:name>
+    <reading xml:lang="ja">そくらてすのべんめい</reading>
+
+    <schema:author xml:lang="ja">プラトン</schema:author>
+    <schema:author xml:lang="en">Plato</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/プラトン"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソクラテスの弁明"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#BeingAndTime">
+    <rdfs:label>存在と時間</rdfs:label>
+    <schema:name xml:lang="ja">存在と時間</schema:name>
+    <schema:name xml:lang="en">Being and Time</schema:name>
+    <schema:name xml:lang="de">Sein und Zeit</schema:name>
+    <reading xml:lang="ja">そんざいとじかん</reading>
+
+    <schema:author xml:lang="ja">マルティン・ハイデガー</schema:author>
+    <schema:author xml:lang="en">Martin Heidegger</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/マルティン・ハイデッガー"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/存在と時間"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TotalityAndInfinity">
+    <rdfs:label>全体性と無限</rdfs:label>
+    <schema:name xml:lang="ja">全体性と無限</schema:name>
+    <schema:name xml:lang="en">Totality and Infinity</schema:name>
+    <schema:name xml:lang="fr">Totalité et Infini</schema:name>
+    <reading xml:lang="ja">ぜんたいせいとむげん</reading>
+
+    <schema:author xml:lang="ja">エマニュエル・レヴィナス</schema:author>
+    <schema:author xml:lang="en">Emmanuel Levinas</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/エマニュエル・レヴィナス"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Totality_and_Infinity"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ContingencyIronySolidarity">
+    <rdfs:label>偶然性・アイロニー・連帯</rdfs:label>
+    <schema:name xml:lang="ja">偶然性・アイロニー・連帯 リベラル・ユートピアの可能性</schema:name>
+    <schema:name xml:lang="en">Contingency, Irony, and Solidarity</schema:name>
+    <reading xml:lang="ja">ぐうぜんせいあいろにーれんたい</reading>
+
+    <schema:author xml:lang="ja">リチャード・ローティ</schema:author>
+    <schema:author xml:lang="en">Richard Rorty</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/リチャード・ローティ"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Contingency,_Irony,_and_Solidarity"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheBrothersKaramazov">
+    <rdfs:label>カラマーゾフの兄弟</rdfs:label>
+    <schema:name xml:lang="ja">カラマーゾフの兄弟</schema:name>
+    <schema:name xml:lang="en">The Brothers Karamazov</schema:name>
+    <schema:name xml:lang="ru">Братья Карамазовы</schema:name>
+    <reading xml:lang="ja">からまーぞふのきょうだい</reading>
+
+    <schema:author xml:lang="ja">フョードル・ドストエフスキー</schema:author>
+    <schema:author xml:lang="en">Fyodor Dostoevsky</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/フョードル・ドストエフスキー"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カラマーゾフの兄弟"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ProblemsOfDostoevskyPoetics">
+    <rdfs:label>ドストエフスキーの詩学</rdfs:label>
+    <schema:name xml:lang="ja">ドストエフスキーの詩学</schema:name>
+    <schema:name xml:lang="en">Problems of Dostoevsky's Poetics</schema:name>
+    <reading xml:lang="ja">どすとえふすきーのしがく</reading>
+
+    <schema:author xml:lang="ja">ミハイル・バフチン</schema:author>
+    <schema:author xml:lang="en">Mikhail Bakhtin</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミハイル・バフチン"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Problems_of_Dostoevsky's_Poetics"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Valis">
+    <rdfs:label>ヴァリス</rdfs:label>
+    <schema:name xml:lang="ja">ヴァリス</schema:name>
+    <schema:name xml:lang="en">VALIS</schema:name>
+    <reading xml:lang="ja">ゔぁりす</reading>
+
+    <schema:author xml:lang="ja">フィリップ・K・ディック</schema:author>
+    <schema:author xml:lang="en">Philip K. Dick</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/フィリップ・K・ディック"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ヴァリス"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#GravitysRainbow">
+    <rdfs:label>重力の虹</rdfs:label>
+    <schema:name xml:lang="ja">重力の虹</schema:name>
+    <schema:name xml:lang="en">Gravity's Rainbow</schema:name>
+    <reading xml:lang="ja">じゅうりょくのにじ</reading>
+
+    <schema:author xml:lang="ja">トマス・ピンチョン</schema:author>
+    <schema:author xml:lang="en">Thomas Pynchon</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/トマス・ピンチョン"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/重力の虹"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#WomenInACircle">
+    <rdfs:label>円陣を組む女たち</rdfs:label>
+    <schema:name xml:lang="ja">円陣を組む女たち</schema:name>
+    <reading xml:lang="ja">えんじんをくむおんなたち</reading>
+
+    <schema:author xml:lang="ja">古井由吉</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/古井由吉"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#PapaToldMe">
+    <rdfs:label>Papa told me</rdfs:label>
+    <schema:name xml:lang="ja">Papa told me</schema:name>
+    <reading xml:lang="ja">ぱぱとーるどみー</reading>
+
+    <schema:author xml:lang="ja">榛野なな恵</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/榛野なな恵"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- 砺波いぶきの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Cybernetics">
+    <rdfs:label>サイバネティックス</rdfs:label>
+    <schema:name xml:lang="ja">サイバネティックス</schema:name>
+    <schema:name xml:lang="en">Cybernetics: Or Control and Communication in the Animal and the Machine</schema:name>
+    <reading xml:lang="ja">さいばねてぃっくす</reading>
+
+    <schema:author xml:lang="ja">ノーバート・ウィーナー</schema:author>
+    <schema:author xml:lang="en">Norbert Wiener</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ノーバート・ウィーナー"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/サイバネティックス"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheConsciousMind">
+    <rdfs:label>意識する心</rdfs:label>
+    <schema:name xml:lang="ja">意識する心</schema:name>
+    <schema:name xml:lang="en">The Conscious Mind</schema:name>
+    <reading xml:lang="ja">いしきするこころ</reading>
+
+    <schema:author xml:lang="ja">デイヴィッド・チャーマーズ</schema:author>
+    <schema:author xml:lang="en">David Chalmers</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/デイヴィッド・チャーマーズ"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Conscious_Mind"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#GodelEscherBach">
+    <rdfs:label>ゲーデル、エッシャー、バッハ</rdfs:label>
+    <schema:name xml:lang="ja">ゲーデル、エッシャー、バッハ あるいは不思議の環</schema:name>
+    <schema:name xml:lang="en">Gödel, Escher, Bach: An Eternal Golden Braid</schema:name>
+    <reading xml:lang="ja">げーでるえっしゃーばっは</reading>
+
+    <schema:author xml:lang="ja">ダグラス・ホフスタッター</schema:author>
+    <schema:author xml:lang="en">Douglas Hofstadter</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ダグラス・ホフスタッター"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ゲーデル、エッシャー、バッハ"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#HowToSolveIt">
+    <rdfs:label>いかにして問題をとくか</rdfs:label>
+    <schema:name xml:lang="ja">いかにして問題をとくか</schema:name>
+    <schema:name xml:lang="en">How to Solve It</schema:name>
+    <reading xml:lang="ja">いかにしてもんだいをとくか</reading>
+
+    <schema:author xml:lang="ja">ジョージ・ポリア</schema:author>
+    <schema:author xml:lang="en">George Pólya</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジョージ・ポリア"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/いかにして問題をとくか"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Shunkinshō">
+    <rdfs:label>春琴抄</rdfs:label>
+    <schema:name xml:lang="ja">春琴抄</schema:name>
+    <schema:name xml:lang="en">A Portrait of Shunkin</schema:name>
+    <reading xml:lang="ja">しゅんきんしょう</reading>
+
+    <schema:author xml:lang="ja">谷崎潤一郎</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/谷崎潤一郎"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/春琴抄"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#EtoKobayashiHideo">
+    <rdfs:label>小林秀雄</rdfs:label>
+    <schema:name xml:lang="ja">小林秀雄</schema:name>
+    <reading xml:lang="ja">こばやしひでお</reading>
+
+    <schema:author xml:lang="ja">江藤淳</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/江藤淳"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheFountainhead">
+    <rdfs:label>水源</rdfs:label>
+    <schema:name xml:lang="ja">水源</schema:name>
+    <schema:name xml:lang="en">The Fountainhead</schema:name>
+    <reading xml:lang="ja">すいげん</reading>
+
+    <schema:author xml:lang="ja">アイン・ランド</schema:author>
+    <schema:author xml:lang="en">Ayn Rand</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/アイン・ランド"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/水源_(小説)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#FlowersForAlgernon">
+    <rdfs:label>アルジャーノンに花束を</rdfs:label>
+    <schema:name xml:lang="ja">アルジャーノンに花束を</schema:name>
+    <schema:name xml:lang="en">Flowers for Algernon</schema:name>
+    <reading xml:lang="ja">あるじゃーのんにはなたばを</reading>
+
+    <schema:author xml:lang="ja">ダニエル・キイス</schema:author>
+    <schema:author xml:lang="en">Daniel Keyes</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ダニエル・キイス"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/アルジャーノンに花束を"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#HibikeSoundEuphonium">
+    <rdfs:label>響け！ユーフォニアム</rdfs:label>
+    <schema:name xml:lang="ja">響け！ユーフォニアム</schema:name>
+    <schema:name xml:lang="en">Sound! Euphonium</schema:name>
+    <reading xml:lang="ja">ひびけゆーふぉにあむ</reading>
+
+    <schema:author xml:lang="ja">武田綾乃</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/武田綾乃"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/響け!_ユーフォニアム"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheAmericans">
+    <rdfs:label>The Americans</rdfs:label>
+    <schema:name xml:lang="en">The Americans</schema:name>
+    <reading xml:lang="ja">じあめりかんず</reading>
+
+    <schema:author xml:lang="en">Robert Frank</schema:author>
+    <schema:author xml:lang="ja">ロバート・フランク</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロバート・フランク"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Americans_(photography)"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <!-- 上伊那ぼたんの大切な10冊 -->
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#CritiqueOfPureReason">
+    <rdfs:label>純粋理性批判</rdfs:label>
+    <schema:name xml:lang="ja">純粋理性批判</schema:name>
+    <schema:name xml:lang="en">Critique of Pure Reason</schema:name>
+    <schema:name xml:lang="de">Kritik der reinen Vernunft</schema:name>
+    <reading xml:lang="ja">じゅんすいりせいひはん</reading>
+
+    <schema:author xml:lang="ja">イマヌエル・カント</schema:author>
+    <schema:author xml:lang="en">Immanuel Kant</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/イマヌエル・カント"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/純粋理性批判"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheConceptOfMind">
+    <rdfs:label>心の概念</rdfs:label>
+    <schema:name xml:lang="ja">心の概念</schema:name>
+    <schema:name xml:lang="en">The Concept of Mind</schema:name>
+    <reading xml:lang="ja">こころのがいねん</reading>
+
+    <schema:author xml:lang="ja">ギルバート・ライル</schema:author>
+    <schema:author xml:lang="en">Gilbert Ryle</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ギルバート・ライル"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/心の概念"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#EscapeFromFreedom">
+    <rdfs:label>自由からの逃走</rdfs:label>
+    <schema:name xml:lang="ja">自由からの逃走</schema:name>
+    <schema:name xml:lang="en">Escape from Freedom</schema:name>
+    <reading xml:lang="ja">じゆうからのとうそう</reading>
+
+    <schema:author xml:lang="ja">エーリッヒ・フロム</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/エーリッヒ・フロム"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/自由からの逃走"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#ARoomOfOnesOwn">
+    <rdfs:label>自分ひとりの部屋</rdfs:label>
+    <schema:name xml:lang="ja">自分ひとりの部屋</schema:name>
+    <schema:name xml:lang="en">A Room of One's Own</schema:name>
+    <reading xml:lang="ja">じぶんひとりのへや</reading>
+
+    <schema:author xml:lang="ja">ヴァージニア・ウルフ</schema:author>
+    <schema:author xml:lang="en">Virginia Woolf</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/ヴァージニア・ウルフ"/>
+
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/A_Room_of_One's_Own"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SongsOfTheGoat">
+    <rdfs:label>山羊の歌</rdfs:label>
+    <schema:name xml:lang="ja">山羊の歌</schema:name>
+    <reading xml:lang="ja">やぎのうた</reading>
+
+    <schema:author xml:lang="ja">中原中也</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/中原中也"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/山羊の歌"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#NipTheBudsShootTheKids">
+    <rdfs:label>芽むしり仔撃ち</rdfs:label>
+    <schema:name xml:lang="ja">芽むしり仔撃ち</schema:name>
+    <schema:name xml:lang="en">Nip the Buds, Shoot the Kids</schema:name>
+    <reading xml:lang="ja">めむしりこうち</reading>
+
+    <schema:author xml:lang="ja">大江健三郎</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/大江健三郎"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/芽むしり仔撃ち"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#Solaris">
+    <rdfs:label>ソラリス</rdfs:label>
+    <schema:name xml:lang="ja">ソラリス</schema:name>
+    <schema:name xml:lang="en">Solaris</schema:name>
+    <schema:name xml:lang="pl">Solaris</schema:name>
+    <reading xml:lang="ja">そらりす</reading>
+
+    <schema:author xml:lang="ja">スタニスワフ・レム</schema:author>
+    <schema:author xml:lang="en">Stanisław Lem</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/スタニスワフ・レム"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソラリス"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#TheCathedralAndTheBazaar">
+    <rdfs:label>伽藍とバザール</rdfs:label>
+    <schema:name xml:lang="ja">伽藍とバザール</schema:name>
+    <schema:name xml:lang="en">The Cathedral and the Bazaar</schema:name>
+    <reading xml:lang="ja">がらんとばざーる</reading>
+
+    <schema:author xml:lang="ja">エリック・スティーブン・レイモンド</schema:author>
+    <schema:author xml:lang="en">Eric S. Raymond</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/エリック・レイモンド"/>
+
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伽藍とバザール"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#OneMoreMinuteForCountryPlease">
+    <rdfs:label>One More Minute for Country, Please</rdfs:label>
+    <schema:name xml:lang="en">One More Minute for Country, Please</schema:name>
+
+    <schema:author xml:lang="en">Valerie Phillips</schema:author>
+    <schema:author xml:lang="ja">ヴァレリー・フィリップス</schema:author>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#SummerDMinor">
+    <rdfs:label>夏の終わりのト短調</rdfs:label>
+    <schema:name xml:lang="ja">夏の終わりのト短調</schema:name>
+    <reading xml:lang="ja">なつのおわりのとたんちょう</reading>
+
+    <schema:author xml:lang="ja">大島弓子</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/大島弓子"/>
+
+    <appearedIn>
+      <Appearance>
+        <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+</rdf:RDF>

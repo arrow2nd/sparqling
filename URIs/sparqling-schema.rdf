@@ -66,6 +66,13 @@
     <rdfs:comment xml:lang="ja">作中に登場した食べ物</rdfs:comment>
   </rdfs:Class>
 
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Movie">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Movie"/>
+    <rdfs:label xml:lang="en">Movie</rdfs:label>
+    <rdfs:label xml:lang="ja">映画</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中に登場した映画</rdfs:comment>
+  </rdfs:Class>
+
   <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Appearance">
     <rdfs:label xml:lang="en">Appearance</rdfs:label>
     <rdfs:label xml:lang="ja">登場情報</rdfs:label>

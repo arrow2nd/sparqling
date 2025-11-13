@@ -8,4 +8,73 @@
     xmlns:place="https://sparqling.arrow2nd.com/place#"
     xmlns:char="https://sparqling.arrow2nd.com/character#">
 
+  <Place rdf:about="https://sparqling.arrow2nd.com/place#DaikanyamaStation">
+    <rdfs:label>代官山駅</rdfs:label>
+    <schema:name xml:lang="ja">代官山駅</schema:name>
+    <reading xml:lang="ja">だいかんやまえき</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/代官山駅"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Place>
+
+  <Place rdf:about="https://sparqling.arrow2nd.com/place#NagatoroStation">
+    <rdfs:label>長瀞駅</rdfs:label>
+    <schema:name xml:lang="ja">長瀞駅</schema:name>
+    <reading xml:lang="ja">ながとろえき</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/長瀞駅"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Place>
+
+  <Place rdf:about="https://sparqling.arrow2nd.com/place#ChichibuRoad">
+    <rdfs:label>秩父路</rdfs:label>
+    <schema:name xml:lang="ja">秩父路</schema:name>
+    <reading xml:lang="ja">ちちぶじ</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父路"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Place>
+
+  <Place rdf:about="https://sparqling.arrow2nd.com/place#SeibuChichibuStation">
+    <rdfs:label>西武秩父駅</rdfs:label>
+    <schema:name xml:lang="ja">西武秩父駅</schema:name>
+    <reading xml:lang="ja">せいぶちちぶえき</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/西武秩父駅"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Place>
 </rdf:RDF>

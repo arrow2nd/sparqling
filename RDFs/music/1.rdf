@@ -8,4 +8,76 @@
     xmlns:music="https://sparqling.arrow2nd.com/music#"
     xmlns:char="https://sparqling.arrow2nd.com/character#">
 
+  <Music rdf:about="https://sparqling.arrow2nd.com/music#Closer">
+    <rdfs:label>Closer</rdfs:label>
+    <schema:name xml:lang="en">Closer</schema:name>
+    <reading xml:lang="ja">くろーざー</reading>
+
+    <schema:byArtist xml:lang="en">Joy Division</schema:byArtist>
+    <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/ジョイ・ディヴィジョン"/>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/クローサー_(ジョイ・ディヴィジョンのアルバム)"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Music>
+
+  <Music rdf:about="https://sparqling.arrow2nd.com/music#KinksSize">
+    <rdfs:label>KINKS-SIZE</rdfs:label>
+    <schema:name xml:lang="en">Kinks-Size</schema:name>
+    <reading xml:lang="ja">きんくすさいず</reading>
+
+    <schema:byArtist xml:lang="en">The Kinks</schema:byArtist>
+    <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/キンクス"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Music>
+
+  <Music rdf:about="https://sparqling.arrow2nd.com/music#TheManMachine">
+    <rdfs:label>The Man-Machine</rdfs:label>
+    <schema:name xml:lang="en">The Man-Machine</schema:name>
+    <reading xml:lang="ja">ざまんましーん</reading>
+
+    <schema:byArtist xml:lang="en">Kraftwerk</schema:byArtist>
+    <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/クラフトワーク"/>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/人間解体"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Music>
+
+  <Music rdf:about="https://sparqling.arrow2nd.com/music#SurfinUSA">
+    <rdfs:label>サーフィンU.S.A.</rdfs:label>
+    <schema:name xml:lang="ja">サーフィンU.S.A.</schema:name>
+    <schema:name xml:lang="en">Surfin' U.S.A.</schema:name>
+    <reading xml:lang="ja">さーふぃんゆーえすえー</reading>
+
+    <schema:byArtist xml:lang="en">The Beach Boys</schema:byArtist>
+    <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/ビーチ・ボーイズ"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Music>
 </rdf:RDF>
