@@ -37,6 +37,9 @@ COPY RDFs/ /data/RDFs/
 COPY docker/init-data.sh /init-data.sh
 RUN chmod +x /init-data.sh
 
+# ビルド時にデータを投入
+RUN /init-data.sh
+
 # エントリポイントスクリプト
 COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
