@@ -9,26 +9,26 @@ importers:
   .:
     dependencies:
       '@cloudflare/containers':
-        specifier: ^0.0.28
-        version: 0.0.28
+        specifier: ^0.0.30
+        version: 0.0.30
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.10.5
+        version: 4.10.5
     devDependencies:
       '@types/node':
         specifier: ^24.10.1
         version: 24.10.1
       typescript:
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.3
+        version: 5.9.3
       wrangler:
         specifier: ^4.48.0
         version: 4.48.0
 
 packages:
 
-  '@cloudflare/containers@0.0.28':
-    resolution: {integrity: sha512-wzR9UWcGvZ9znd4elkXklilPcHX6srncsjSkx696SZRZyTygNbWsLlHegvc1C+e9gn28HRZU3dLiAzXiC9IY1w==}
+  '@cloudflare/containers@0.0.30':
+    resolution: {integrity: sha512-i148xBgmyn/pje82ZIyuTr/Ae0BT/YWwa1/GTJcw6DxEjUHAzZLaBCiX446U9OeuJ2rBh/L/9FIzxX5iYNt1AQ==}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     resolution: {integrity: sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA==}
@@ -430,8 +430,8 @@ packages:
   glob-to-regexp@0.4.1:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
-  hono@4.8.2:
-    resolution: {integrity: sha512-hM+1RIn9PK1I6SiTNS6/y7O1mvg88awYLFEuEtoiMtRyT3SD2iu9pSFgbBXT3b1Ua4IwzvSTLvwO0SEhDxCi4w==}
+  hono@4.10.5:
+    resolution: {integrity: sha512-h/MXuTkoAK8NG1EfDp0jI1YLf6yGdDnfkebRO2pwEh5+hE3RAJFXkCsnD0vamSiARK4ZrB6MY+o3E/hCnOyHrQ==}
     engines: {node: '>=16.9.0'}
 
   is-arrayish@0.3.4:
@@ -480,8 +480,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -533,7 +533,7 @@ packages:
 
 snapshots:
 
-  '@cloudflare/containers@0.0.28': {}
+  '@cloudflare/containers@0.0.30': {}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     dependencies:
@@ -811,7 +811,7 @@ snapshots:
 
   glob-to-regexp@0.4.1: {}
 
-  hono@4.8.2: {}
+  hono@4.10.5: {}
 
   is-arrayish@0.3.4: {}
 
@@ -880,7 +880,7 @@ snapshots:
   tslib@2.8.1:
     optional: true
 
-  typescript@5.8.3: {}
+  typescript@5.9.3: {}
 
   undici-types@7.16.0: {}
 
