@@ -59,6 +59,13 @@
     <rdfs:comment xml:lang="ja">作中で訪れた場所</rdfs:comment>
   </rdfs:Class>
 
+  <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Food">
+    <rdfs:subClassOf rdf:resource="http://schema.org/Food"/>
+    <rdfs:label xml:lang="en">Food</rdfs:label>
+    <rdfs:label xml:lang="ja">食べ物</rdfs:label>
+    <rdfs:comment xml:lang="ja">作中に登場した食べ物</rdfs:comment>
+  </rdfs:Class>
+
   <rdfs:Class rdf:about="https://sparqling.arrow2nd.com/schema#Appearance">
     <rdfs:label xml:lang="en">Appearance</rdfs:label>
     <rdfs:label xml:lang="ja">登場情報</rdfs:label>

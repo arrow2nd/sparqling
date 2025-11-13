@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:food="https://sparqling.arrow2nd.com/food#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Food rdf:about="https://sparqling.arrow2nd.com/food#ChichibuSoba">
+    <rdfs:label>秩父そば</rdfs:label>
+    <schema:name xml:lang="ja">秩父そば</schema:name>
+    <reading xml:lang="ja">ちちぶそば</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父そば"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Food>
+
+  <Food rdf:about="https://sparqling.arrow2nd.com/food#WarajiKatsudon">
+    <rdfs:label>わらじカツ丼</rdfs:label>
+    <schema:name xml:lang="ja">わらじカツ丼</schema:name>
+    <reading xml:lang="ja">わらじかつどん</reading>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/わらじカツ"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Food>
+</rdf:RDF>

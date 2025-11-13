@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:drink="https://sparqling.arrow2nd.com/drink#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#ChichibuBeer">
+    <rdfs:label>秩父麦酒</rdfs:label>
+    <schema:name xml:lang="ja">秩父麦酒</schema:name>
+    <reading xml:lang="ja">ちちぶびーる</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://chichibubeer.shop-pro.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">秩父麦酒醸造所</schema:manufacturer>
+    <schema:address xml:lang="ja">埼玉県秩父市下吉田3786-1</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#WhiskySoda">
+    <rdfs:label>ハイボール</rdfs:label>
+    <schema:name xml:lang="ja">ハイボール</schema:name>
+    <reading xml:lang="ja">はいぼーる</reading>
+
+    <schema:category xml:lang="ja">カクテル</schema:category>
+
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7607560"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#GensaujirushiKyoho">
+    <rdfs:label>源作印 巨峰</rdfs:label>
+    <schema:name xml:lang="ja">源作印 巨峰</schema:name>
+    <reading xml:lang="ja">げんさくじるしきょほう</reading>
+
+    <schema:category xml:lang="ja">ワイン</schema:category>
+    <schema:url rdf:resource="https://chichibuwine.co.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">(有)秩父ワイン</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/秩父ワイン"/>
+    <schema:address xml:lang="ja">埼玉県秩父郡小鹿野町両神薄41</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#SuntoryWhiskyHibiki">
+    <rdfs:label>響</rdfs:label>
+    <schema:name xml:lang="ja">響</schema:name>
+    <reading xml:lang="ja">ひびき</reading>
+
+    <schema:category xml:lang="ja">ウィスキー</schema:category>
+    <schema:url rdf:resource="https://www.suntory.co.jp/whisky/hibiki/"/>
+
+    <schema:manufacturer xml:lang="ja">サントリーホールディングス株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/サントリー"/>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/響_(ウイスキー)"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#ChichibuNishiki">
+    <rdfs:label>秩父錦</rdfs:label>
+    <schema:name xml:lang="ja">秩父錦</schema:name>
+    <reading xml:lang="ja">ちちぶにしき</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="https://chichibunishiki.com/"/>
+
+    <schema:manufacturer xml:lang="ja">株式会社矢尾本店</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/矢尾本店"/>
+    <schema:address xml:lang="ja">埼玉県秩父市別所字久保ノ入1432</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父錦"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#AsahiSuperDry">
+    <rdfs:label>アサヒスーパードライ</rdfs:label>
+    <schema:name xml:lang="ja">アサヒスーパードライ</schema:name>
+    <reading xml:lang="ja">あさひすーぱーどらい</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://www.asahibeer.co.jp/superdry/"/>
+
+    <schema:manufacturer xml:lang="ja">アサヒビール株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/アサヒビール"/>
+    <schema:address xml:lang="ja">東京都墨田区吾妻橋1-23-1</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/アサヒスーパードライ"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#MituiNoKotobuki">
+    <rdfs:label>三井の寿 純米吟醸 ＋14大辛口</rdfs:label>
+    <schema:name xml:lang="ja">三井の寿 純米吟醸 ＋14大辛口</schema:name>
+    <reading xml:lang="ja">みいのことぶきじゅんまいぎんじょう</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="https://miinokotobuki.com/"/>
+
+    <schema:manufacturer xml:lang="ja">株式会社みいの寿</schema:manufacturer>
+    <schema:address xml:lang="ja">福岡県三井郡大刀洗町栄田1067-2</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#HyakunennoKodou">
+    <rdfs:label>百年の孤独</rdfs:label>
+    <schema:name xml:lang="ja">百年の孤独</schema:name>
+    <reading xml:lang="ja">ひゃくねんのこどく</reading>
+
+    <schema:category xml:lang="ja">焼酎</schema:category>
+    <schema:url rdf:resource="https://www.kurokihonten.co.jp/shochu/"/>
+
+    <schema:manufacturer xml:lang="ja">株式会社黒木本店</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/黒木本店"/>
+    <schema:address xml:lang="ja">宮崎県児湯郡高鍋町大字北高鍋776</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/百年の孤独 (焼酎)"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#RokudaimeYuri">
+    <rdfs:label>六代目百合</rdfs:label>
+    <schema:name xml:lang="ja">六代目百合</schema:name>
+    <reading xml:lang="ja">ろくだいめゆり</reading>
+
+    <schema:category xml:lang="ja">焼酎</schema:category>
+
+    <schema:manufacturer xml:lang="ja">塩田酒造株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/塩田酒造"/>
+    <schema:address xml:lang="ja">鹿児島県薩摩川内市里町里1604</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#AbsintheEmeraude">
+    <rdfs:label>Absinthe Emeraude</rdfs:label>
+    <schema:name xml:lang="ja">Absinthe Emeraude</schema:name>
+    <reading xml:lang="ja">あぶさんえめろーど</reading>
+
+    <schema:category xml:lang="ja">アブサン</schema:category>
+
+    <schema:manufacturer xml:lang="ja">ボヴェ・ラ・ヴァロット</schema:manufacturer>
+    <schema:manufacturer xml:lang="en">Bovet La Valote</schema:manufacturer>
+    <schema:address xml:lang="en">Rue de la Gare 5, 2112 Môtiers, Switzerland</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#PunkIPA">
+    <rdfs:label>PUNK IPA</rdfs:label>
+    <schema:name xml:lang="ja">PUNK IPA</schema:name>
+    <reading xml:lang="ja">ぱんくあいぴーえー</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://www.brewdog.jp/lineup/"/>
+
+    <schema:manufacturer xml:lang="ja">ブリュードッグ</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/ブリュードッグ"/>
+    <schema:manufacturer xml:lang="en">BrewDog</schema:manufacturer>
+    <schema:address xml:lang="en">Balmacassie Industrial Estate, Ellon, Aberdeenshire. AB41 8BX, United Kingdom</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#Hoppy">
+    <rdfs:label>ホッピー</rdfs:label>
+    <schema:name xml:lang="ja">ホッピー</schema:name>
+    <reading xml:lang="ja">ほっぴー</reading>
+
+    <schema:category xml:lang="ja">ビールテイスト飲料</schema:category>
+    <schema:url rdf:resource="https://www.hoppy-happy.com/"/>
+
+    <schema:manufacturer xml:lang="ja">ホッピービバレッジ株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/ホッピービバレッジ"/>
+    <schema:address xml:lang="ja">東京都港区赤坂2-15-12</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/ホッピー"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#HakurakuSei">
+    <rdfs:label>伯楽星</rdfs:label>
+    <schema:name xml:lang="ja">伯楽星</schema:name>
+    <reading xml:lang="ja">はくらくせい</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="https://niizawa-brewery.co.jp/item/brand/%E4%BC%AF%E6%A5%BD%E6%98%9F/"/>
+
+    <schema:manufacturer xml:lang="ja">株式会社新澤醸造店</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/新澤醸造店"/>
+    <schema:address xml:lang="ja">宮城県大崎市三本木北町63</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#Mojito">
+    <rdfs:label>モヒート</rdfs:label>
+    <schema:name xml:lang="ja">モヒート</schema:name>
+    <reading xml:lang="ja">もひーと</reading>
+
+    <schema:category xml:lang="ja">カクテル</schema:category>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/モヒート"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#TaxiDriver">
+    <rdfs:label>タクシードライバー</rdfs:label>
+    <schema:name xml:lang="ja">タクシードライバー</schema:name>
+    <reading xml:lang="ja">たくしーどらいばー</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="http://kikuzakari.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">喜久盛酒造株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/喜久盛酒造"/>
+    <schema:address xml:lang="ja">岩手県北上市更木3-54</schema:address>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      </Appearance>
+    </appearedIn>
+  </Drink>
+</rdf:RDF>

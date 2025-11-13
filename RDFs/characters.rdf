@@ -24,8 +24,6 @@
 
     <schema:birthPlace xml:lang="ja">長野県</schema:birthPlace>
     <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/長野県"/>
-    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Nagano_Prefecture"/>
-    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q127877"/>
   </Character>
 
   <Character rdf:about="https://sparqling.arrow2nd.com/character#TonamiIbuki">
@@ -44,8 +42,6 @@
 
     <schema:birthPlace xml:lang="ja">富山県</schema:birthPlace>
     <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/富山県"/>
-    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Toyama_Prefecture"/>
-    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q132929"/>
   </Character>
 
   <Character rdf:about="https://sparqling.arrow2nd.com/character#GujoKanade">
@@ -64,8 +60,6 @@
 
     <schema:birthPlace xml:lang="ja">岐阜県</schema:birthPlace>
     <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/岐阜県"/>
-    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Gifu_Prefecture"/>
-    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q131277"/>
   </Character>
 
   <Character rdf:about="https://sparqling.arrow2nd.com/character#KitamoriYaeka">
@@ -84,8 +78,6 @@
 
     <schema:birthPlace xml:lang="ja">山梨県</schema:birthPlace>
     <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/山梨県"/>
-    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Yamanashi_Prefecture"/>
-    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q132720"/>
   </Character>
 
   <Character rdf:about="https://sparqling.arrow2nd.com/character#YusaAkane">
@@ -123,8 +115,6 @@
     <schema:birthPlace xml:lang="ja">台湾</schema:birthPlace>
     <schema:birthPlace xml:lang="zh-TW">台灣</schema:birthPlace>
     <schema:birthPlace rdf:resource="http://ja.dbpedia.org/resource/台湾"/>
-    <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Taiwan"/>
-    <schema:birthPlace rdf:resource="http://www.wikidata.org/entity/Q22502"/>
   </Character>
 
   <Character rdf:about="https://sparqling.arrow2nd.com/character#AwaMikuri">

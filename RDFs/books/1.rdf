@@ -8,6 +8,23 @@
     xmlns:book="https://sparqling.arrow2nd.com/book#"
     xmlns:char="https://sparqling.arrow2nd.com/character#">
 
+  <Book rdf:about="https://sparqling.arrow2nd.com/book#">
+    <rdfs:label>春宵十話</rdfs:label>
+    <schema:name xml:lang="ja">春宵十話</schema:name>
+    <reading xml:lang="ja">しゅんしょうじゅうわ</reading>
+
+    <schema:author xml:lang="ja">岡潔</schema:author>
+    <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡潔"/>
+
+    <appearedIn>
+      <Appearance>
+        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      </Appearance>
+    </appearedIn>
+  </Book>
+
   <Book rdf:about="https://sparqling.arrow2nd.com/book#SciencesOfTheArtificial">
     <rdfs:label>システムの科学</rdfs:label>
     <schema:name xml:lang="ja">システムの科学</schema:name>
@@ -17,8 +34,6 @@
     <schema:author xml:lang="ja">ハーバート・A・サイモン</schema:author>
     <schema:author xml:lang="en">Herbert A. Simon</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ハーバート・サイモン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Herbert_A._Simon"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q181529"/>
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30078095"/>
 
@@ -39,10 +54,7 @@
     <schema:author xml:lang="ja">マーヴィン・ミンスキー</schema:author>
     <schema:author xml:lang="en">Marvin Minsky</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/マービン・ミンスキー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Marvin_Minsky"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q204815"/>
 
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Society_of_Mind"/>
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2414313"/>
 
     <appearedIn>
@@ -63,10 +75,7 @@
     <schema:author xml:lang="ja">ポール・グレアム</schema:author>
     <schema:author xml:lang="en">Paul Graham</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ポール・グレアム"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Paul_Graham_(programmer)"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q92650"/>
 
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Hackers_%26_Painters"/>
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5637262"/>
 
     <appearedIn>
@@ -87,8 +96,6 @@
     <schema:author xml:lang="ja">ジャン・ボードリヤール</schema:author>
     <schema:author xml:lang="en">Jean Baudrillard</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジャン・ボードリヤール"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Jean_Baudrillard"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q182847"/>
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q19278075"/>
 
@@ -107,7 +114,6 @@
     <reading xml:lang="ja">ひょうそうひひょうせんげん</reading>
     <schema:author xml:lang="ja">蓮實重彦</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/蓮實重彦"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q1308340"/>
 
     <appearedIn>
       <Appearance>
@@ -127,8 +133,6 @@
     <schema:author xml:lang="ja">ロベール・ブレッソン</schema:author>
     <schema:author xml:lang="en">Robert Bresson</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロベール・ブレッソン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Robert_Bresson"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q55391"/>
 
     <appearedIn>
       <Appearance>
@@ -146,7 +150,6 @@
 
     <schema:author xml:lang="ja">福沢諭吉</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/福澤諭吉"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Fukuzawa_Yukichi"/>
 
     <appearedIn>
       <Appearance>
@@ -166,10 +169,7 @@
     <schema:author xml:lang="ja">テッド・チャン</schema:author>
     <schema:author xml:lang="en">Ted Chiang</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/テッド・チャン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Ted_Chiang"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q503095"/>
 
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Story_of_Your_Life"/>
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7620415"/>
 
     <appearedIn>
@@ -189,10 +189,7 @@
     <schema:author xml:lang="en">Donald E. Knuth</schema:author>
     <schema:author xml:lang="ja">ドナルド・E・クヌース</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ドナルド・クヌース"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Donald_Knuth"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q17457"/>
 
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Art_of_Computer_Programming"/>
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q82438"/>
 
     <appearedIn>
@@ -211,15 +208,12 @@
     <schema:name xml:lang="en">The Elements of Statistical Learning: Data Mining, Inference, and Prediction</schema:name>
 
     <schema:author xml:lang="en">Trevor Hastie</schema:author>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Trevor_Hastie"/>
     <schema:author rdf:resource="http://www.wikidata.org/entity/Q7839206"/>
 
     <schema:author xml:lang="en">Robert Tibshirani</schema:author>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Robert_Tibshirani"/>
     <schema:author rdf:resource="http://www.wikidata.org/entity/Q3938444"/>
 
     <schema:author xml:lang="en">Jerome Friedman</schema:author>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Jerome_H._Friedman"/>
     <schema:author rdf:resource="http://www.wikidata.org/entity/Q15429378"/>
 
     <appearedIn>
@@ -240,8 +234,6 @@
     <schema:author xml:lang="ja">バールーフ・デ・スピノザ</schema:author>
     <schema:author xml:lang="en">Baruch Spinoza</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/バールーフ・デ・スピノザ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Baruch_Spinoza"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q35802"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ethics_(Spinoza_book)"/>
 
@@ -264,11 +256,8 @@
     <schema:author xml:lang="ja">スタンダール</schema:author>
     <schema:author xml:lang="en">Stendhal</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/スタンダール"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Stendhal"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q502"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/パルムの僧院"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Charterhouse_of_Parma"/>
 
     <appearedIn>
       <Appearance>
@@ -288,11 +277,8 @@
     <schema:author xml:lang="ja">フョードル・ドストエフスキー</schema:author>
     <schema:author xml:lang="en">Fyodor Dostoevsky</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/フョードル・ドストエフスキー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Fyodor_Dostoevsky"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q991"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/悪霊_(ドストエフスキー)"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Demons_(Dostoevsky_novel)"/>
 
     <appearedIn>
       <Appearance>
@@ -313,11 +299,8 @@
     <schema:author xml:lang="ja">ガブリエル・ガルシア＝マルケス</schema:author>
     <schema:author xml:lang="en">Gabriel García Márquez</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ガブリエル・ガルシア＝マルケス"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Gabriel_García_Márquez"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q5878"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/百年の孤独"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/One_Hundred_Years_of_Solitude"/>
 
     <appearedIn>
       <Appearance>
@@ -337,11 +320,8 @@
     <schema:author xml:lang="ja">エドワード・サイード</schema:author>
     <schema:author xml:lang="en">Edward Said</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/エドワード・サイード"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Edward_Said"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q201538"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/オリエンタリズム"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Orientalism_(book)"/>
 
     <appearedIn>
       <Appearance>
@@ -361,7 +341,6 @@
     <schema:author xml:lang="ja">ティム・オブライエン</schema:author>
     <schema:author xml:lang="en">Tim O'Brien</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ティム・オブライエン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Tim_O'Brien_(author)"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Things_They_Carried"/>
 
@@ -383,11 +362,8 @@
     <schema:author xml:lang="ja">三島由紀夫</schema:author>
     <schema:author xml:lang="en">Yukio Mishima</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/三島由紀夫"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Yukio_Mishima"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q134456"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/仮面の告白"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Confessions_of_a_Mask"/>
 
     <appearedIn>
       <Appearance>
@@ -407,8 +383,6 @@
     <schema:author xml:lang="ja">モーリス・ブランショ</schema:author>
     <schema:author xml:lang="en">Maurice Blanchot</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/モーリス・ブランショ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Maurice_Blanchot"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q315210"/>
 
     <appearedIn>
       <Appearance>
@@ -429,8 +403,6 @@
     <schema:author xml:lang="ja">ジャン=リュック・ゴダール</schema:author>
     <schema:author xml:lang="en">Jean-Luc Godard</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジャン=リュック・ゴダール"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Jean-Luc_Godard"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q53001"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Histoire(s)_du_cinéma"/>
 
@@ -452,8 +424,6 @@
     <schema:author xml:lang="ja">ジル・ドゥルーズ</schema:author>
     <schema:author xml:lang="en">Gilles Deleuze</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジル・ドゥルーズ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Gilles_Deleuze"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q184226"/>
 
     <appearedIn>
       <Appearance>
@@ -474,11 +444,8 @@
     <schema:author xml:lang="ja">リチャード・P・ファインマン</schema:author>
     <schema:author xml:lang="en">Richard P. Feynman</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/リチャード・P・ファインマン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Richard_Feynman"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q39246"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ファインマン物理学"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Feynman_Lectures_on_Physics"/>
 
     <appearedIn>
       <Appearance>
@@ -498,8 +465,6 @@
     <schema:author xml:lang="ja">アルバート・アインシュタイン</schema:author>
     <schema:author xml:lang="en">Albert Einstein</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/アルベルト・アインシュタイン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Albert_Einstein"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q937"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Relativity:_The_Special_and_the_General_Theory"/>
 
@@ -521,11 +486,8 @@
     <schema:author xml:lang="ja">ルートヴィヒ・ウィトゲンシュタイン</schema:author>
     <schema:author xml:lang="en">Ludwig Wittgenstein</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ルートヴィヒ・ウィトゲンシュタイン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Ludwig_Wittgenstein"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q9391"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/論理哲学論考"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Tractatus_Logico-Philosophicus"/>
 
     <appearedIn>
       <Appearance>
@@ -560,11 +522,9 @@
 
     <schema:author xml:lang="ja">小澤征爾</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/小澤征爾"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Seiji_Ozawa"/>
 
     <schema:author xml:lang="ja">武満徹</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/武満徹"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Tōru_Takemitsu"/>
 
     <appearedIn>
       <Appearance>
@@ -618,8 +578,6 @@
     <schema:author xml:lang="ja">デルモア・シュワルツ</schema:author>
     <schema:author xml:lang="en">Delmore Schwartz</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/デルモア・シュワルツ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Delmore_Schwartz"/>
-
 
     <appearedIn>
       <Appearance>
@@ -639,8 +597,6 @@
     <schema:author xml:lang="en">Henri Cartier-Bresson</schema:author>
     <schema:author xml:lang="ja">アンリ・カルティエ＝ブレッソン</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/アンリ・カルティエ＝ブレッソン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Henri_Cartier-Bresson"/>
-
 
     <appearedIn>
       <Appearance>
@@ -678,10 +634,8 @@
     <schema:author xml:lang="ja">トーマス・クーン</schema:author>
     <schema:author xml:lang="en">Thomas Kuhn</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/トーマス・クーン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Thomas_Kuhn"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/科学革命の構造"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Structure_of_Scientific_Revolutions"/>
 
     <appearedIn>
       <Appearance>
@@ -699,7 +653,6 @@
 
     <schema:author xml:lang="ja">朝永振一郎</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/朝永振一郎"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Shin'ichirō_Tomonaga"/>
 
     <appearedIn>
       <Appearance>
@@ -736,8 +689,6 @@
     <schema:author xml:lang="ja">フリードリヒ・キットラー</schema:author>
     <schema:author xml:lang="en">Friedrich Kittler</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/フリードリヒ・キットラー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Friedrich_Kittler"/>
-
 
     <appearedIn>
       <Appearance>
@@ -756,10 +707,8 @@
 
     <schema:author xml:lang="ja">宮沢賢治</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/宮沢賢治"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Kenji_Miyazawa"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/銀河鉄道の夜"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Night_on_the_Galactic_Railroad"/>
 
     <appearedIn>
       <Appearance>
@@ -799,11 +748,8 @@
     <schema:author xml:lang="ja">ホルヘ・ルイス・ボルヘス</schema:author>
     <schema:author xml:lang="en">Jorge Luis Borges</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ホルヘ・ルイス・ボルヘス"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Jorge_Luis_Borges"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q909"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伝奇集"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ficciones"/>
 
     <appearedIn>
       <Appearance>
@@ -824,7 +770,6 @@
     <schema:author xml:lang="ja">アラン・ロブ＝グリエ</schema:author>
     <schema:author xml:lang="en">Alain Robbe-Grillet</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/アラン・ロブ＝グリエ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Alain_Robbe-Grillet"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jealousy_(novel)"/>
 
@@ -847,10 +792,8 @@
     <schema:author xml:lang="ja">ミヒャエル・エンデ</schema:author>
     <schema:author xml:lang="en">Michael Ende</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミヒャエル・エンデ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Michael_Ende"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/モモ_(児童文学)"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Momo_(novel)"/>
 
     <appearedIn>
       <Appearance>
@@ -870,10 +813,8 @@
     <schema:author xml:lang="ja">CLAMP</schema:author>
     <schema:author xml:lang="en">Clamp</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/CLAMP"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Clamp_(manga_artists)"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カードキャプターさくら"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cardcaptor_Sakura"/>
 
     <appearedIn>
       <Appearance>
@@ -895,8 +836,6 @@
     <schema:author xml:lang="ja">ロラン・バルト</schema:author>
     <schema:author xml:lang="en">Roland Barthes</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロラン・バルト"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Roland_Barthes"/>
-
 
     <appearedIn>
       <Appearance>
@@ -917,11 +856,8 @@
     <schema:author xml:lang="ja">ミシェル・フーコー</schema:author>
     <schema:author xml:lang="en">Michel Foucault</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミシェル・フーコー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Michel_Foucault"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q44272"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/言葉と物"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Order_of_Things"/>
 
     <appearedIn>
       <Appearance>
@@ -959,11 +895,8 @@
     <schema:author xml:lang="ja">ル・コルビュジエ</schema:author>
     <schema:author xml:lang="en">Le Corbusier</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ル・コルビュジエ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Le_Corbusier"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q4724"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/建築をめざして"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Toward_an_Architecture"/>
 
     <appearedIn>
       <Appearance>
@@ -1002,7 +935,6 @@
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ケネス・クラーク"/>
     <schema:author rdf:resource="http://dbpedia.org/resource/Kenneth_Clark"/>
 
-
     <appearedIn>
       <Appearance>
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
@@ -1021,7 +953,6 @@
     <schema:author xml:lang="ja">岡倉天心</schema:author>
     <schema:author xml:lang="en">Okakura Kakuzō</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡倉天心"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Okakura_Kakuzō"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/東洋の理想"/>
 
@@ -1060,10 +991,8 @@
     <schema:author xml:lang="ja">サマセット・モーム</schema:author>
     <schema:author xml:lang="en">W. Somerset Maugham</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/サマセット・モーム"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/W._Somerset_Maugham"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/月と六ペンス"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Moon_and_Sixpence"/>
 
     <appearedIn>
       <Appearance>
@@ -1081,10 +1010,7 @@
     <reading xml:lang="ja">ひきだしにゆうがたをしまっておいた</reading>
 
     <schema:author xml:lang="ja">韓江</schema:author>
-    <schema:author xml:lang="en">Han Kang</schema:author>
-    <schema:author xml:lang="ko">한강</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ハン・ガン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Han_Kang"/>
 
     <appearedIn>
       <Appearance>
@@ -1105,11 +1031,8 @@
     <schema:author xml:lang="ja">プラトン</schema:author>
     <schema:author xml:lang="en">Plato</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/プラトン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Plato"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q859"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソクラテスの弁明"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Apology_(Plato)"/>
 
     <appearedIn>
       <Appearance>
@@ -1130,10 +1053,8 @@
     <schema:author xml:lang="ja">マルティン・ハイデガー</schema:author>
     <schema:author xml:lang="en">Martin Heidegger</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/マルティン・ハイデッガー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Martin_Heidegger"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/存在と時間"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Being_and_Time"/>
 
     <appearedIn>
       <Appearance>
@@ -1154,7 +1075,6 @@
     <schema:author xml:lang="ja">エマニュエル・レヴィナス</schema:author>
     <schema:author xml:lang="en">Emmanuel Levinas</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/エマニュエル・レヴィナス"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Emmanuel_Levinas"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Totality_and_Infinity"/>
 
@@ -1176,7 +1096,6 @@
     <schema:author xml:lang="ja">リチャード・ローティ</schema:author>
     <schema:author xml:lang="en">Richard Rorty</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/リチャード・ローティ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Richard_Rorty"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Contingency,_Irony,_and_Solidarity"/>
 
@@ -1199,11 +1118,8 @@
     <schema:author xml:lang="ja">フョードル・ドストエフスキー</schema:author>
     <schema:author xml:lang="en">Fyodor Dostoevsky</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/フョードル・ドストエフスキー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Fyodor_Dostoevsky"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q991"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カラマーゾフの兄弟"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Brothers_Karamazov"/>
 
     <appearedIn>
       <Appearance>
@@ -1223,7 +1139,6 @@
     <schema:author xml:lang="ja">ミハイル・バフチン</schema:author>
     <schema:author xml:lang="en">Mikhail Bakhtin</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ミハイル・バフチン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Mikhail_Bakhtin"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Problems_of_Dostoevsky's_Poetics"/>
 
@@ -1245,10 +1160,8 @@
     <schema:author xml:lang="ja">フィリップ・K・ディック</schema:author>
     <schema:author xml:lang="en">Philip K. Dick</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/フィリップ・K・ディック"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Philip_K._Dick"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ヴァリス"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Valis_(novel)"/>
 
     <appearedIn>
       <Appearance>
@@ -1268,10 +1181,8 @@
     <schema:author xml:lang="ja">トマス・ピンチョン</schema:author>
     <schema:author xml:lang="en">Thomas Pynchon</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/トマス・ピンチョン"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Thomas_Pynchon"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/重力の虹"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Gravity's_Rainbow"/>
 
     <appearedIn>
       <Appearance>
@@ -1326,10 +1237,8 @@
     <schema:author xml:lang="ja">ノーバート・ウィーナー</schema:author>
     <schema:author xml:lang="en">Norbert Wiener</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ノーバート・ウィーナー"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Norbert_Wiener"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/サイバネティックス"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine"/>
 
     <appearedIn>
       <Appearance>
@@ -1349,7 +1258,6 @@
     <schema:author xml:lang="ja">デイヴィッド・チャーマーズ</schema:author>
     <schema:author xml:lang="en">David Chalmers</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/デイヴィッド・チャーマーズ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/David_Chalmers"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Conscious_Mind"/>
 
@@ -1371,10 +1279,8 @@
     <schema:author xml:lang="ja">ダグラス・ホフスタッター</schema:author>
     <schema:author xml:lang="en">Douglas Hofstadter</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ダグラス・ホフスタッター"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Douglas_Hofstadter"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ゲーデル、エッシャー、バッハ"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Gödel,_Escher,_Bach"/>
 
     <appearedIn>
       <Appearance>
@@ -1394,10 +1300,8 @@
     <schema:author xml:lang="ja">ジョージ・ポリア</schema:author>
     <schema:author xml:lang="en">George Pólya</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジョージ・ポリア"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/George_Pólya"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/いかにして問題をとくか"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/How_to_Solve_It"/>
 
     <appearedIn>
       <Appearance>
@@ -1416,10 +1320,8 @@
 
     <schema:author xml:lang="ja">谷崎潤一郎</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/谷崎潤一郎"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Jun'ichirō_Tanizaki"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/春琴抄"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/A_Portrait_of_Shunkin"/>
 
     <appearedIn>
       <Appearance>
@@ -1456,11 +1358,8 @@
     <schema:author xml:lang="ja">アイン・ランド</schema:author>
     <schema:author xml:lang="en">Ayn Rand</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/アイン・ランド"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Ayn_Rand"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q132524"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/水源_(小説)"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Fountainhead"/>
 
     <appearedIn>
       <Appearance>
@@ -1480,10 +1379,8 @@
     <schema:author xml:lang="ja">ダニエル・キイス</schema:author>
     <schema:author xml:lang="en">Daniel Keyes</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ダニエル・キイス"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Daniel_Keyes"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/アルジャーノンに花束を"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Flowers_for_Algernon"/>
 
     <appearedIn>
       <Appearance>
@@ -1522,8 +1419,6 @@
     <schema:author xml:lang="en">Robert Frank</schema:author>
     <schema:author xml:lang="ja">ロバート・フランク</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロバート・フランク"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Robert_Frank"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q467574"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Americans_(photography)"/>
 
@@ -1547,11 +1442,8 @@
     <schema:author xml:lang="ja">イマヌエル・カント</schema:author>
     <schema:author xml:lang="en">Immanuel Kant</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/イマヌエル・カント"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Immanuel_Kant"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q9312"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/純粋理性批判"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Critique_of_Pure_Reason"/>
 
     <appearedIn>
       <Appearance>
@@ -1571,10 +1463,8 @@
     <schema:author xml:lang="ja">ギルバート・ライル</schema:author>
     <schema:author xml:lang="en">Gilbert Ryle</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ギルバート・ライル"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Gilbert_Ryle"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/心の概念"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Concept_of_Mind"/>
 
     <appearedIn>
       <Appearance>
@@ -1592,12 +1482,9 @@
     <reading xml:lang="ja">じゆうからのとうそう</reading>
 
     <schema:author xml:lang="ja">エーリッヒ・フロム</schema:author>
-    <schema:author xml:lang="en">Erich Fromm</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/エーリッヒ・フロム"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Erich_Fromm"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/自由からの逃走"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Escape_from_Freedom"/>
 
     <appearedIn>
       <Appearance>
@@ -1617,8 +1504,6 @@
     <schema:author xml:lang="ja">ヴァージニア・ウルフ</schema:author>
     <schema:author xml:lang="en">Virginia Woolf</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ヴァージニア・ウルフ"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Virginia_Woolf"/>
-    <schema:author rdf:resource="http://www.wikidata.org/entity/Q40909"/>
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/A_Room_of_One's_Own"/>
 
@@ -1658,10 +1543,8 @@
 
     <schema:author xml:lang="ja">大江健三郎</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/大江健三郎"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Kenzaburō_Ōe"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/芽むしり仔撃ち"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Nip_the_Buds,_Shoot_the_Kids"/>
 
     <appearedIn>
       <Appearance>
@@ -1682,10 +1565,8 @@
     <schema:author xml:lang="ja">スタニスワフ・レム</schema:author>
     <schema:author xml:lang="en">Stanisław Lem</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/スタニスワフ・レム"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Stanisław_Lem"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソラリス"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Solaris_(novel)"/>
 
     <appearedIn>
       <Appearance>
@@ -1705,10 +1586,8 @@
     <schema:author xml:lang="ja">エリック・スティーブン・レイモンド</schema:author>
     <schema:author xml:lang="en">Eric S. Raymond</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/エリック・レイモンド"/>
-    <schema:author rdf:resource="http://dbpedia.org/resource/Eric_S._Raymond"/>
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伽藍とバザール"/>
-    <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Cathedral_and_the_Bazaar"/>
 
     <appearedIn>
       <Appearance>
@@ -1722,7 +1601,6 @@
   <Book rdf:about="https://sparqling.arrow2nd.com/book#OneMoreMinuteForCountryPlease">
     <rdfs:label>One More Minute for Country, Please</rdfs:label>
     <schema:name xml:lang="en">One More Minute for Country, Please</schema:name>
-    <reading xml:lang="ja">わんもあみにっとふぉーかんとりーぷりーず</reading>
 
     <schema:author xml:lang="en">Valerie Phillips</schema:author>
     <schema:author xml:lang="ja">ヴァレリー・フィリップス</schema:author>
