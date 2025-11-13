@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:schema="http://schema.org/"
+    xmlns="https://sparqling.arrow2nd.com/schema#"
+    xmlns:drink="https://sparqling.arrow2nd.com/drink#"
+    xmlns:char="https://sparqling.arrow2nd.com/character#">
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#Rozan">
+    <rdfs:label>狼山</rdfs:label>
+    <schema:name xml:lang="ja">狼山</schema:name>
+    <reading xml:lang="ja">ろうざん</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="https://chichibunishiki.com/"/>
+
+    <schema:manufacturer xml:lang="ja">株式会社矢尾本店</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/矢尾本店"/>
+    <schema:address xml:lang="ja">埼玉県秩父市別所字久保ノ入1432</schema:address>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#KirinTheStrongHonkakuLemon">
+    <rdfs:label>キリン・ザ・ストロング 本格レモン</rdfs:label>
+    <schema:name xml:lang="ja">キリン・ザ・ストロング 本格レモン</schema:name>
+    <reading xml:lang="ja">きりんざすとろんぐほんかくれもん</reading>
+
+    <schema:category xml:lang="ja">チューハイ</schema:category>
+
+    <schema:manufacturer xml:lang="ja">キリンビール株式会社</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/キリンビール"/>
+    <schema:address xml:lang="ja">東京都中野区中野4-10-2</schema:address>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#COEDOBeer">
+    <rdfs:label>COEDOビール</rdfs:label>
+    <schema:name xml:lang="ja">COEDOビール</schema:name>
+    <reading xml:lang="ja">こえどびーる</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://www.coedobrewery.com/"/>
+
+    <schema:manufacturer xml:lang="ja">コエドブルワリー</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/コエドブルワリー"/>
+    <schema:address xml:lang="ja">埼玉県川越市中台南2-20-1</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/コエドブルワリー"/>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#Genmaicha">
+    <rdfs:label>玄米茶</rdfs:label>
+    <schema:name xml:lang="ja">玄米茶</schema:name>
+    <reading xml:lang="ja">げんまいちゃ</reading>
+
+    <schema:category xml:lang="ja">ソフトドリンク</schema:category>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/玄米茶"/>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#SaltyDog">
+    <rdfs:label>ソルティドッグ</rdfs:label>
+    <schema:name xml:lang="ja">ソルティドッグ</schema:name>
+    <reading xml:lang="ja">そるてぃどっぐ</reading>
+
+    <schema:category xml:lang="ja">カクテル</schema:category>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/ソルティ・ドッグ"/>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#TheGlenlivet">
+    <rdfs:label>グレンリベット</rdfs:label>
+    <schema:name xml:lang="ja">グレンリベット</schema:name>
+    <schema:name xml:lang="en">The Glenlivet</schema:name>
+    <reading xml:lang="ja">ぐれんりべっと</reading>
+
+    <schema:category xml:lang="ja">ウイスキー</schema:category>
+    <schema:url rdf:resource="https://www.theglenlivet.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">ペルノ・リカール</schema:manufacturer>
+    <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/ペルノ・リカール"/>
+    <schema:manufacturer xml:lang="en">Pernod Ricard</schema:manufacturer>
+    <schema:address xml:lang="en">Ballindalloch, Banffshire AB37 9DB, Scotland</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/グレンリベット"/>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#TullysCoffee">
+    <rdfs:label>タリーズコーヒー</rdfs:label>
+    <schema:name xml:lang="ja">タリーズコーヒー</schema:name>
+    <schema:name xml:lang="en">Tully's Coffee</schema:name>
+    <reading xml:lang="ja">たりーずこーひー</reading>
+
+    <schema:category xml:lang="ja">ソフトドリンク</schema:category>
+    <schema:url rdf:resource="https://www.tullys.co.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">タリーズコーヒージャパン株式会社</schema:manufacturer>
+    <schema:address xml:lang="ja">東京都新宿区箪笥町22</schema:address>
+
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/タリーズコーヒー"/>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#FujizakuraKogenBeer">
+    <rdfs:label>富士桜高原麦酒</rdfs:label>
+    <schema:name xml:lang="ja">富士桜高原麦酒</schema:name>
+    <reading xml:lang="ja">ふじざくらこうげんびーる</reading>
+
+    <schema:category xml:lang="ja">ビール</schema:category>
+    <schema:url rdf:resource="https://www.fujizakura-beer.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">富士観光開発株式会社</schema:manufacturer>
+    <schema:address xml:lang="ja">山梨県南都留郡富士河口湖町船津3633-1</schema:address>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+    </appearedIn>
+  </Drink>
+
+  <Drink rdf:about="https://sparqling.arrow2nd.com/drink#BukohMasamune">
+    <rdfs:label>武甲正宗</rdfs:label>
+    <schema:name xml:lang="ja">武甲正宗</schema:name>
+    <reading xml:lang="ja">ぶこうまさむね</reading>
+
+    <schema:category xml:lang="ja">日本酒</schema:category>
+    <schema:url rdf:resource="https://www.bukou.co.jp/"/>
+
+    <schema:manufacturer xml:lang="ja">武甲酒造株式会社</schema:manufacturer>
+    <schema:address xml:lang="ja">埼玉県秩父市宮側町21-27</schema:address>
+
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
+  </Drink>
+
+</rdf:RDF>

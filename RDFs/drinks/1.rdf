@@ -38,6 +38,12 @@
       <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
       <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
     </appearedIn>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+    </appearedIn>
   </Drink>
 
   <Drink rdf:about="https://sparqling.arrow2nd.com/drink#WhiskySoda">
