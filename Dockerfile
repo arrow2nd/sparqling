@@ -1,30 +1,49 @@
-FROM eclipse-temurin:17-jre
+# Apache Jena Fuseki Dockerfile for Cloudflare Containers
 
+FROM eclipse-temurin:17-jre-jammy
+
+# Jenaのバージョン
+ENV JENA_VERSION=5.6.0
 ENV FUSEKI_VERSION=5.6.0
+ENV JENA_HOME=/opt/jena
 ENV FUSEKI_HOME=/opt/fuseki
 ENV FUSEKI_BASE=/fuseki
 
-WORKDIR /tmp
-
-# Install wget and dependencies
+# 必要なパッケージをインストール
 RUN apt-get update && \
-    apt-get install -y wget && \
+    apt-get install -y curl wget && \
     rm -rf /var/lib/apt/lists/*
 
-# Download and install Fuseki
-RUN wget -q https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz && \
-    tar xzf apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz && \
-    mv apache-jena-fuseki-${FUSEKI_VERSION} ${FUSEKI_HOME} && \
+# Apache Jenaをダウンロードして展開（tdb2.tdbloaderなどのツールが必要）
+RUN mkdir -p ${JENA_HOME} && \
+    wget -q https://dlcdn.apache.org/jena/binaries/apache-jena-${JENA_VERSION}.tar.gz && \
+    tar -xzf apache-jena-${JENA_VERSION}.tar.gz -C ${JENA_HOME} --strip-components=1 && \
+    rm apache-jena-${JENA_VERSION}.tar.gz
+
+# Fusekiをダウンロードして展開
+RUN mkdir -p ${FUSEKI_HOME} && \
+    wget -q https://dlcdn.apache.org/jena/binaries/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz && \
+    tar -xzf apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz -C ${FUSEKI_HOME} --strip-components=1 && \
     rm apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz
 
-# Create fuseki base directory
-RUN mkdir -p ${FUSEKI_BASE}/databases/sparqling ${FUSEKI_BASE}/configuration
+# Fusekiのデータディレクトリを作成
+RUN mkdir -p ${FUSEKI_BASE}/databases/sparqling
 
-# Copy RDF data
-COPY ./RDFs ${FUSEKI_BASE}/RDFs
+# プロジェクトのRDFデータをコピー
+COPY URIs/ /data/URIs/
+COPY RDFs/ /data/RDFs/
 
-WORKDIR ${FUSEKI_HOME}
+# データを初期投入するスクリプト
+COPY docker/init-data.sh /init-data.sh
+RUN chmod +x /init-data.sh
 
+# エントリポイントスクリプト
+COPY docker/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# ポート3030を公開
 EXPOSE 3030
 
-CMD ["/opt/fuseki/fuseki-server", "--update", "--loc=/fuseki/databases/sparqling", "/sparqling"]
+# Fusekiサーバーを起動
+WORKDIR ${FUSEKI_HOME}
+ENTRYPOINT ["/entrypoint.sh"]

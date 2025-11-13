@@ -18,12 +18,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/クローサー_(ジョイ・ディヴィジョンのアルバム)"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Music>
 
@@ -35,12 +33,10 @@
     <schema:byArtist xml:lang="en">The Kinks</schema:byArtist>
     <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/キンクス"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Music>
 
@@ -54,12 +50,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/人間解体"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Music>
 
@@ -72,12 +66,10 @@
     <schema:byArtist xml:lang="en">The Beach Boys</schema:byArtist>
     <schema:byArtist rdf:resource="https://ja.dbpedia.org/resource/ビーチ・ボーイズ"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Music>
 </rdf:RDF>

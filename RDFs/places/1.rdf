@@ -15,13 +15,11 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/代官山駅"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Place>
 
@@ -32,14 +30,12 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/長瀞駅"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
     </appearedIn>
   </Place>
 
@@ -50,13 +46,11 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父路"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
     </appearedIn>
   </Place>
 
@@ -67,14 +61,12 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/西武秩父駅"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Place>
 </rdf:RDF>

@@ -1,0 +1,23 @@
+{
+  "name": "sparqling",
+  "description": "SPARQLing - SPARQL Endpoint on Cloudflare Containers",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types",
+    "fuseki:up": "docker compose up -d",
+    "fuseki:down": "docker compose down",
+    "fuseki:logs": "docker compose logs -f fuseki"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "5.8.3",
+    "wrangler": "^4.48.0"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.0.28",
+    "hono": "4.8.2"
+  }
+}

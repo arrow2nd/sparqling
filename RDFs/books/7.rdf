@@ -16,12 +16,10 @@
     <schema:author xml:lang="ja">岡潔</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡潔"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Book>
 
@@ -37,12 +35,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q30078095"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -57,12 +53,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2414313"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -78,12 +72,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5637262"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -99,12 +91,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q19278075"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -115,12 +105,10 @@
     <schema:author xml:lang="ja">蓮實重彦</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/蓮實重彦"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -134,12 +122,10 @@
     <schema:author xml:lang="en">Robert Bresson</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロベール・ブレッソン"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -151,12 +137,10 @@
     <schema:author xml:lang="ja">福沢諭吉</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/福澤諭吉"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -172,12 +156,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7620415"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -192,12 +174,10 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q82438"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -216,12 +196,10 @@
     <schema:author xml:lang="en">Jerome Friedman</schema:author>
     <schema:author rdf:resource="http://www.wikidata.org/entity/Q15429378"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">郡上かなでが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -237,12 +215,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Ethics_(Spinoza_book)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -259,12 +235,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/パルムの僧院"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -280,12 +254,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/悪霊_(ドストエフスキー)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -302,12 +274,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/百年の孤独"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -323,12 +293,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/オリエンタリズム"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -344,12 +312,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Things_They_Carried"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -365,12 +331,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/仮面の告白"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -384,12 +348,10 @@
     <schema:author xml:lang="en">Maurice Blanchot</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/モーリス・ブランショ"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -406,11 +368,9 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Histoire(s)_du_cinéma"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -425,12 +385,10 @@
     <schema:author xml:lang="en">Gilles Deleuze</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ジル・ドゥルーズ"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">張景嵐が選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#ZhangJinglan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -447,12 +405,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ファインマン物理学"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -468,12 +424,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Relativity:_The_Special_and_the_General_Theory"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -489,12 +443,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/論理哲学論考"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -506,12 +458,10 @@
     <schema:author xml:lang="ja">吉田武</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/吉田武"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -526,12 +476,10 @@
     <schema:author xml:lang="ja">武満徹</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/武満徹"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -543,12 +491,10 @@
     <schema:author xml:lang="ja">志村正彦</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/志村正彦"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -560,12 +506,10 @@
     <schema:author xml:lang="ja">小林秀雄</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/小林秀雄_(批評家)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -579,12 +523,10 @@
     <schema:author xml:lang="en">Delmore Schwartz</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/デルモア・シュワルツ"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -598,12 +540,10 @@
     <schema:author xml:lang="ja">アンリ・カルティエ＝ブレッソン</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/アンリ・カルティエ＝ブレッソン"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -615,12 +555,10 @@
     <schema:author xml:lang="ja">高野文子</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/高野文子"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">遊佐あかねが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -637,12 +575,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/科学革命の構造"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -654,12 +590,10 @@
     <schema:author xml:lang="ja">朝永振一郎</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/朝永振一郎"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -671,12 +605,10 @@
     <schema:author xml:lang="ja">遠山啓</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/遠山啓"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -690,12 +622,10 @@
     <schema:author xml:lang="en">Friedrich Kittler</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/フリードリヒ・キットラー"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -710,12 +640,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/銀河鉄道の夜"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -729,12 +657,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/花物語"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -751,12 +677,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伝奇集"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -773,12 +697,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jealousy_(novel)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -795,12 +717,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/モモ_(児童文学)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -816,12 +736,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カードキャプターさくら"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">北杜やえかが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -837,12 +755,10 @@
     <schema:author xml:lang="en">Roland Barthes</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ロラン・バルト"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -859,12 +775,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/言葉と物"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -876,12 +790,10 @@
     <schema:author xml:lang="ja">柄谷行人</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/柄谷行人"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -898,12 +810,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/建築をめざして"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -915,12 +825,10 @@
     <schema:author xml:lang="ja">篠原一男</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/篠原一男"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -935,12 +843,10 @@
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ケネス・クラーク"/>
     <schema:author rdf:resource="http://dbpedia.org/resource/Kenneth_Clark"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -956,12 +862,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/東洋の理想"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -973,12 +877,10 @@
     <schema:author xml:lang="ja">岡﨑乾二郎</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/岡﨑乾二郎"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -994,12 +896,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/月と六ペンス"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1012,12 +912,10 @@
     <schema:author xml:lang="ja">韓江</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/ハン・ガン"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">アン・シャンドが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AnneShando"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1034,12 +932,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソクラテスの弁明"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1056,12 +952,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/存在と時間"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1078,12 +972,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Totality_and_Infinity"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1099,12 +991,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Contingency,_Irony,_and_Solidarity"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1121,12 +1011,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/カラマーゾフの兄弟"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1142,12 +1030,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Problems_of_Dostoevsky's_Poetics"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1163,12 +1049,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ヴァリス"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1184,12 +1068,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/重力の虹"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1201,12 +1083,10 @@
     <schema:author xml:lang="ja">古井由吉</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/古井由吉"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1218,12 +1098,10 @@
     <schema:author xml:lang="ja">榛野なな恵</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/榛野なな恵"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">阿波みくりが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#AwaMikuri"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1240,12 +1118,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/サイバネティックス"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1261,12 +1137,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Conscious_Mind"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1282,12 +1156,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ゲーデル、エッシャー、バッハ"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1303,12 +1175,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/いかにして問題をとくか"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1323,12 +1193,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/春琴抄"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1340,12 +1208,10 @@
     <schema:author xml:lang="ja">江藤淳</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/江藤淳"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1361,12 +1227,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/水源_(小説)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1382,12 +1246,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/アルジャーノンに花束を"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1402,12 +1264,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/響け!_ユーフォニアム"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1422,12 +1282,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/The_Americans_(photography)"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">砺波いぶきが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1445,12 +1303,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/純粋理性批判"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1466,12 +1322,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/心の概念"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1486,12 +1340,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/自由からの逃走"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1507,12 +1359,10 @@
 
     <owl:sameAs rdf:resource="http://dbpedia.org/resource/A_Room_of_One's_Own"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1526,12 +1376,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/山羊の歌"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1546,12 +1394,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/芽むしり仔撃ち"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1568,12 +1414,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ソラリス"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1589,12 +1433,10 @@
 
     <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/伽藍とバザール"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1605,12 +1447,10 @@
     <schema:author xml:lang="en">Valerie Phillips</schema:author>
     <schema:author xml:lang="ja">ヴァレリー・フィリップス</schema:author>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 
@@ -1622,12 +1462,10 @@
     <schema:author xml:lang="ja">大島弓子</schema:author>
     <schema:author rdf:resource="http://ja.dbpedia.org/resource/大島弓子"/>
 
-    <appearedIn>
-      <Appearance>
+    <appearedIn rdf:parseType="Resource">
         <note xml:lang="ja">上伊那ぼたんが選ぶ大切な10冊</note>
         <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</volume>
         <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
     </appearedIn>
   </Book>
 </rdf:RDF>

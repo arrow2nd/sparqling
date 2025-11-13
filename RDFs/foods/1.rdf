@@ -15,12 +15,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父そば"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Food>
 
@@ -31,12 +29,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/わらじカツ"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
     </appearedIn>
   </Food>
 </rdf:RDF>

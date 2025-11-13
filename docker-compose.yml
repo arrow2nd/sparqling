@@ -1,15 +1,16 @@
 services:
   fuseki:
-    build: .
-    container_name: sparqling-fuseki
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "3030:3030"
     volumes:
-      - ./RDFs:/fuseki/RDFs
+      # 開発時はデータを永続化
       - fuseki-data:/fuseki/databases
     environment:
-      - JAVA_OPTIONS=-Xmx2g
-    restart: unless-stopped
+      - FUSEKI_HOME=/opt/fuseki
+      - FUSEKI_BASE=/fuseki
 
 volumes:
   fuseki-data:

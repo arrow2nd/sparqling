@@ -19,27 +19,24 @@
     <schema:manufacturer xml:lang="ja">秩父麦酒醸造所</schema:manufacturer>
     <schema:address xml:lang="ja">埼玉県秩父市下吉田3786-1</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+    </appearedIn>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
     </appearedIn>
   </Drink>
 
@@ -52,13 +49,11 @@
 
     <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7607560"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Drink>
 
@@ -74,13 +69,11 @@
     <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/秩父ワイン"/>
     <schema:address xml:lang="ja">埼玉県秩父郡小鹿野町両神薄41</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Drink>
 
@@ -97,12 +90,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/響_(ウイスキー)"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
     </appearedIn>
   </Drink>
 
@@ -120,19 +111,17 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/秩父錦"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+    </appearedIn>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Drink>
 
@@ -150,12 +139,9 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/アサヒスーパードライ"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume> <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
     </appearedIn>
   </Drink>
 
@@ -170,12 +156,10 @@
     <schema:manufacturer xml:lang="ja">株式会社みいの寿</schema:manufacturer>
     <schema:address xml:lang="ja">福岡県三井郡大刀洗町栄田1067-2</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
     </appearedIn>
   </Drink>
 
@@ -191,14 +175,12 @@
     <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/黒木本店"/>
     <schema:address xml:lang="ja">宮崎県児湯郡高鍋町大字北高鍋776</schema:address>
 
-    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/百年の孤独 (焼酎)"/>
+    <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/百年の孤独_(焼酎)"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
     </appearedIn>
   </Drink>
 
@@ -213,13 +195,11 @@
     <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/塩田酒造"/>
     <schema:address xml:lang="ja">鹿児島県薩摩川内市里町里1604</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
     </appearedIn>
   </Drink>
 
@@ -234,13 +214,11 @@
     <schema:manufacturer xml:lang="en">Bovet La Valote</schema:manufacturer>
     <schema:address xml:lang="en">Rue de la Gare 5, 2112 Môtiers, Switzerland</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Drink>
 
@@ -257,14 +235,12 @@
     <schema:manufacturer xml:lang="en">BrewDog</schema:manufacturer>
     <schema:address xml:lang="en">Balmacassie Industrial Estate, Ellon, Aberdeenshire. AB41 8BX, United Kingdom</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KamiinaBotan"/>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#TonamiIbuki"/>
     </appearedIn>
   </Drink>
 
@@ -282,12 +258,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/ホッピー"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#YusaAkane"/>
     </appearedIn>
   </Drink>
 
@@ -303,12 +277,10 @@
     <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/新澤醸造店"/>
     <schema:address xml:lang="ja">宮城県大崎市三本木北町63</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
     </appearedIn>
   </Drink>
 
@@ -321,12 +293,10 @@
 
     <owl:sameAs rdf:resource="https://ja.dbpedia.org/resource/モヒート"/>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#KitamoriYaeka"/>
     </appearedIn>
   </Drink>
 
@@ -342,12 +312,10 @@
     <schema:manufacturer rdf:resource="https://ja.dbpedia.org/resource/喜久盛酒造"/>
     <schema:address xml:lang="ja">岩手県北上市更木3-54</schema:address>
 
-    <appearedIn>
-      <Appearance>
-        <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
-        <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
-        <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
-      </Appearance>
+    <appearedIn rdf:parseType="Resource">
+      <volume rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</volume>
+      <episode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</episode>
+      <character rdf:resource="https://sparqling.arrow2nd.com/character#GujoKanade"/>
     </appearedIn>
   </Drink>
 </rdf:RDF>
